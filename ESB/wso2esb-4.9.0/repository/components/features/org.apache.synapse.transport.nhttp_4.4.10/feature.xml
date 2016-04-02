@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.synapse.transport.nhttp" label="WSO2 Carbon - Synapse Nhttp Transport Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the synapse nhttp transport feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="httpcore" unpack="false" version="4.3.3.wso2v1"/>
+  <plugin id="synapse-nhttp-transport" unpack="false" version="2.1.3.wso2v11"/>
+  <plugin id="synapse-commons" unpack="false" version="2.1.3.wso2v11"/>
+  <plugin id="httpcore-nio" unpack="false" version="4.3.3.wso2v1"/>
+</feature>

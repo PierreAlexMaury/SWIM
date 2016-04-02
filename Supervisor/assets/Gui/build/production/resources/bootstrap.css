@@ -1,0 +1,60 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+/* line 1, ../../../sass/var/tabbar.scss */
+.x-tab-focus.x-tab-default {
+  outline: none !important;
+}
+
+/* line 5, ../../../sass/var/tabbar.scss */
+.x-tab.x-tab-active.x-tab-default {
+  background-color: #1c85e2 !important;
+}
+
+/* line 9, ../../../sass/var/tabbar.scss */
+.x-unselectable.x-box-item.x-tab-default.x-bottom.x-tab-bottom.x-tab-default-bottom {
+  border-radius: 30px;
+  margin-top: 3px !important;
+  margin-right: 10px !important;
+  height: 39px;
+  top: 0px !important;
+}
+
+/* line 17, ../../../sass/var/tabbar.scss */
+.x-box-inner.x-box-scroller-body-horizontal {
+  overflow: visible;
+}
+
+/* line 21, ../../../sass/var/tabbar.scss */
+.fa-line-chart {
+  font-size: 20px !important;
+  right: 1px;
+  position: relative;
+}
+
+/* line 27, ../../../sass/var/tabbar.scss */
+.fa-file-text-o {
+  font-size: 20px !important;
+  right: 0px;
+  position: relative;
+}
+
+/* line 33, ../../../sass/var/tabbar.scss */
+.x-tab-bar-strip.x-tab-bar-strip-default {
+  height: 2px;
+}
+
+/* line 3, ../../../sass/var/fieldset.scss */
+.x-fieldset {
+  background: white !important;
+}
+
+/* line 7, ../../../sass/var/fieldset.scss */
+.x-form-item-label-default {
+  color: black !important;
+}
+
+/* line 11, ../../../sass/var/fieldset.scss */
+.x-toolbar-footer {
+  background-color: white !important;
+}

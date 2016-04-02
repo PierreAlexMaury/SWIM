@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediators.ui" label="WSO2 Carbon - All Mediators UI Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for All mediator Front-ends</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.mediator.enqueue.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.property.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.script.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.store.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.dbreport.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.calltemplate.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.target.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.send.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.urlrewrite.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.out.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.header.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.fault.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.proxyadmin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.iterate.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.filter.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.event.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.spring.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.dblookup.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.aggregate.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.sequence.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.respond.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.in.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.payloadfactory.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.switch.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediators.event.admin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.bean.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.rule.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediators.command.admin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.transaction.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.callout.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.xquery.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.xslt.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.command.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.throttle.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.oauth.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.entitlement.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.validate.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.clazz.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.clone.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediators.throttle.admin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.foreach.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.call.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.log.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.enrich.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.conditionalrouter.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.fastXSLT.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediators.clazz.admin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.ejb.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.drop.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.uiless.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.loopback.ui" unpack="false" version="4.4.10"/>
+</feature>

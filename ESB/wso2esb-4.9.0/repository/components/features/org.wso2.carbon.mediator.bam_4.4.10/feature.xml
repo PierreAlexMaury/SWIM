@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediator.bam" label="WSO2 Carbon - BAM Mediator Aggregate Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for BAM Mediator functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.databridge.datapublisher" match="equivalent" version="4.4.7"/>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.1"/>
+  </require>
+  <includes id="org.wso2.carbon.mediator.bam.server" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.mediator.bam.ui" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.mediator.bam.config.server" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.mediator.bam.config.ui" optional="false" version="4.4.10"/>
+</feature>

@@ -1,0 +1,34 @@
+/* line 1, ../sass/style.scss */
+.x-unselectable.x-box-item.x-tab-default.x-bottom.x-tab-bottom.x-tab-default-bottom {
+    box-sizing: border-box;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 7px 10px !important;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(115,128,135,0.25);
+    color:black !important;
+}
+/* line 14, ../sass/style.scss */
+.x-unselectable.x-box-item.x-tab-default.x-bottom.x-tab-bottom.x-tab-default-bottom:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+/* line 21, ../sass/style.scss */
+.x-unselectable.x-box-item.x-tab-default.x-bottom.x-tab-bottom.x-tab-default-bottom.x-tab-active {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1.2) translateY(-2px);
+    transform: scale(1.2) translateY(-2px);
+    background-color: #166AB5;
+}
+
+.x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-icon-el{
+    color:white !important;
+}

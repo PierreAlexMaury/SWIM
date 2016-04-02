@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediation.admin" label="WSO2 Carbon - Mediation Admin Features" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains admin features of mediation</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.proxyadmin" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.store" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.service" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.rest.api" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.ntaskadmin" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.sequences.common" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.library" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.task" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.connector.core" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.common" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.security" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.priority.executors" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.proxyadmin.common" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.inbound" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.sequences" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.endpoint" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.processor" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.message.processor" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.artifactuploader" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.localentry" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.ntask" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.service" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.task.services" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.clazz.services" unpack="false" version="4.4.10"/>
+  <require>
+    <import feature="org.wso2.carbon.mediation.initializer.server" match="equivalent" version="4.4.10"/>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.1"/>
+    <import feature="org.apache.synapse.wso2" match="equivalent" version="4.4.10"/>
+  </require>
+</feature>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.synapse.transport.vfs" label="WSO2 Carbon - Synapse VFS Transport Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the synapse vfs transport feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import match="equivalent" plugin="jsch" version="0.1.49.wso2v1"/>
+    <import match="equivalent" plugin="synapse-commons" version="2.1.3.wso2v11"/>
+    <import match="equivalent" plugin="synapse-vfs-transport" version="2.1.3.wso2v11"/>
+    <import match="equivalent" plugin="commons-net" version="3.3.0.wso2v1"/>
+    <import match="equivalent" plugin="commons-vfs2" version="2.0.0.wso2v12"/>
+  </require>
+</feature>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.esb.styles" label="WSO2 ESB - Styles Features" provider-name="%providerName" version="4.9.0">
+  <description>Features specific to the WSO2 ESB</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.esb.styles" unpack="false" version="4.9.0"/>
+  <plugin id="org.wso2.carbon.ui.menu.stratos" unpack="false" version="2.2.0"/>
+  <require>
+    <import feature="org.wso2.carbon.core.ui" match="equivalent" version="4.4.1"/>
+  </require>
+</feature>

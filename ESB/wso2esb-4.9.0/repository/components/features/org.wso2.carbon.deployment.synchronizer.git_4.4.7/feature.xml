@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.deployment.synchronizer.git" label="WSO2 Carbon - GIT Based Deployment Synchronizer Feature" provider-name="%providerName" version="4.4.7">
+  <description>This feature contains the core bundles required to implement GIT based repository synchronization</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.adc.repositoryinformation.service.stub" unpack="false" version="4.4.7"/>
+  <plugin id="jsch" unpack="false" version="0.1.49.wso2v1"/>
+  <plugin id="org.eclipse.jgit" unpack="false" version="2.3.1.wso2v2"/>
+  <plugin id="gitblit" unpack="false" version="1.2.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.deployment.synchronizer.git" unpack="false" version="4.4.7"/>
+  <require>
+    <import feature="org.wso2.carbon.deployment.synchronizer.server" match="equivalent" version="4.4.7"/>
+  </require>
+</feature>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.bam.mediation.agent.ui" label="WSO2 Carbon - BAM Mediation Data Agent UI Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the ui bundles required for BAM Data Publisher Mediation Statistics functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.bam.mediationstats.data.publisher.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.bam.mediationstats.data.publisher.stub" unpack="false" version="4.4.10"/>
+  <require>
+    <import feature="org.wso2.carbon.core.ui" match="equivalent" version="4.4.1"/>
+  </require>
+</feature>

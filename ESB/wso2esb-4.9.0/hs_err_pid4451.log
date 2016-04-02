@@ -1,0 +1,856 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 65536 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2827), pid=4451, tid=140150449694464
+#
+# JRE version: OpenJDK Runtime Environment (7.0_91-b02) (build 1.7.0_91-b02)
+# Java VM: OpenJDK 64-Bit Server VM (24.91-b01 mixed mode linux-amd64 compressed oops)
+# Derivative: IcedTea 2.6.3
+# Distribution: Ubuntu 14.04 LTS, package 7u91-2.6.3-0ubuntu0.14.04.1
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f774c0b6800):  JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=4457, stack(0x00007f7751b4e000,0x00007f7751c4f000)]
+
+Stack: [0x00007f7751b4e000,0x00007f7751c4f000],  sp=0x00007f7751c4bf10,  free space=1015k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x953e15]  VMError::report_and_die()+0x175
+V  [libjvm.so+0x48fd94]  report_vm_out_of_memory(char const*, int, unsigned long, char const*)+0x74
+V  [libjvm.so+0x7cf87b]  os::pd_commit_memory(char*, unsigned long, unsigned long, bool)+0xeb
+V  [libjvm.so+0x7ca33f]  os::commit_memory(char*, unsigned long, unsigned long, bool)+0x1f
+V  [libjvm.so+0x950d04]  VirtualSpace::expand_by(unsigned long, bool)+0x1c4
+V  [libjvm.so+0x58104c]  CodeHeap::expand_by(unsigned long)+0x6c
+V  [libjvm.so+0x422e06]  CodeCache::allocate(int)+0x36
+V  [libjvm.so+0x7a195e]  nmethod::new_nmethod(methodHandle, int, int, CodeOffsets*, int, DebugInformationRecorder*, Dependencies*, CodeBuffer*, int, OopMapSet*, ExceptionHandlerTable*, ImplicitExceptionTable*, AbstractCompiler*, int)+0xfe
+V  [libjvm.so+0x3d1538]  ciEnv::register_method(ciMethod*, int, CodeOffsets*, int, CodeBuffer*, int, OopMapSet*, ExceptionHandlerTable*, ImplicitExceptionTable*, AbstractCompiler*, int, bool, bool)+0x2c8
+V  [libjvm.so+0x443605]  Compile::Compile(ciEnv*, C2Compiler*, ciMethod*, int, bool, bool)+0x10e5
+V  [libjvm.so+0x3b15ea]  C2Compiler::compile_method(ciEnv*, ciMethod*, int)+0xca
+V  [libjvm.so+0x4493b7]  CompileBroker::invoke_compiler_on_method(CompileTask*)+0x327
+V  [libjvm.so+0x44a4c0]  CompileBroker::compiler_thread_loop()+0x3a0
+V  [libjvm.so+0x906c70]  JavaThread::thread_main_inner()+0xf0
+V  [libjvm.so+0x906ee1]  JavaThread::run()+0x221
+V  [libjvm.so+0x7cc742]  java_start(Thread*)+0xf2
+
+
+Current CompileTask:
+C2:  88464  799             org.eclipse.osgi.internal.resolver.StateWriter::writeBundleDescriptionLazyData (816 bytes)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f7724002000 JavaThread "CacheExpirySchedulerThread-70" daemon [_thread_blocked, id=4735, stack(0x00007f7711e88000,0x00007f7711f89000)]
+  0x00007f770c738800 JavaThread "RegistryLogWritter" daemon [_thread_blocked, id=4723, stack(0x00007f7711ff2000,0x00007f77120f3000)]
+  0x00007f770c025000 JavaThread "H2 Log Writer WSO2CARBON_DB" daemon [_thread_blocked, id=4720, stack(0x00007f77120f3000,0x00007f77121f4000)]
+  0x00007f770c353800 JavaThread "H2 File Lock Watchdog /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/database/WSO2CARBON_DB.lock.db" daemon [_thread_blocked, id=4719, stack(0x00007f7713691000,0x00007f7713792000)]
+  0x00007f7734001800 JavaThread "localhost-startStop-1" daemon [_thread_in_native, id=4717, stack(0x00007f7713792000,0x00007f7713893000)]
+  0x00007f77383c7800 JavaThread "Catalina-startStop-1" daemon [_thread_blocked, id=4716, stack(0x00007f7713893000,0x00007f7713994000)]
+  0x00007f770c1c7000 JavaThread "Thread-8" daemon [_thread_blocked, id=4715, stack(0x00007f7713994000,0x00007f7713a95000)]
+  0x00007f7728101000 JavaThread "PoolCleaner[697650726:1453727928589]" daemon [_thread_blocked, id=4714, stack(0x00007f7748003000,0x00007f7748104000)]
+  0x00007f7728037800 JavaThread "Timer-0" daemon [_thread_blocked, id=4711, stack(0x00007f774840c000,0x00007f774850d000)]
+  0x00007f770c50c800 JavaThread "CacheExpirySchedulerThread-74" daemon [_thread_blocked, id=4710, stack(0x00007f7748604000,0x00007f7748705000)]
+  0x00007f770c682800 JavaThread "[ThreadPool Manager] - Idle Thread" daemon [_thread_blocked, id=4708, stack(0x00007f7713518000,0x00007f7713619000)]
+  0x00007f770c5db000 JavaThread "Worker-JM" [_thread_blocked, id=4707, stack(0x00007f7748256000,0x00007f7748357000)]
+  0x00007f7714039800 JavaThread "Blueprint Extender: 3" daemon [_thread_blocked, id=4704, stack(0x00007f7713ca6000,0x00007f7713da7000)]
+  0x00007f7714002000 JavaThread "Blueprint Extender: 2" daemon [_thread_blocked, id=4702, stack(0x00007f7713da7000,0x00007f7713ea8000)]
+  0x00007f770c1d2000 JavaThread "Blueprint Extender: 1" daemon [_thread_blocked, id=4701, stack(0x00007f7713ea8000,0x00007f7713fa9000)]
+  0x00007f770c45f800 JavaThread "[Timer] - Main Queue Handler" daemon [_thread_blocked, id=4700, stack(0x00007f7748104000,0x00007f7748205000)]
+  0x00007f770c4f8800 JavaThread "Bundle File Closer" daemon [_thread_blocked, id=4543, stack(0x00007f77487f1000,0x00007f77488f2000)]
+  0x00007f774c422800 JavaThread "Start Level Event Dispatcher" daemon [_thread_blocked, id=4511, stack(0x00007f77488f2000,0x00007f77489f3000)]
+  0x00007f774c3f6000 JavaThread "Framework Event Dispatcher" daemon [_thread_blocked, id=4510, stack(0x00007f77489f3000,0x00007f7748af4000)]
+  0x00007f774c3b0000 JavaThread "Framework Active Thread" [_thread_blocked, id=4494, stack(0x00007f7748bf5000,0x00007f7748cf6000)]
+  0x00007f774c241800 JavaThread "RMI TCP Accept-0" daemon [_thread_in_native, id=4472, stack(0x00007f775006b000,0x00007f775016c000)]
+  0x00007f774c0bb800 JavaThread "Service Thread" daemon [_thread_blocked, id=4459, stack(0x00007f775194c000,0x00007f7751a4d000)]
+  0x00007f774c0b9000 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=4458, stack(0x00007f7751a4d000,0x00007f7751b4e000)]
+=>0x00007f774c0b6800 JavaThread "C2 CompilerThread0" daemon [_thread_in_vm, id=4457, stack(0x00007f7751b4e000,0x00007f7751c4f000)]
+  0x00007f774c0b4800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=4456, stack(0x00007f7751c4f000,0x00007f7751d50000)]
+  0x00007f774c087000 JavaThread "Finalizer" daemon [_thread_blocked, id=4455, stack(0x00007f7752432000,0x00007f7752533000)]
+  0x00007f774c085000 JavaThread "Reference Handler" daemon [_thread_blocked, id=4454, stack(0x00007f7752533000,0x00007f7752634000)]
+  0x00007f774c00c800 JavaThread "main" [_thread_blocked, id=4452, stack(0x00007f7756277000,0x00007f7756378000)]
+
+Other Threads:
+  0x00007f774c080800 VMThread [stack: 0x00007f7752634000,0x00007f7752735000] [id=4453]
+  0x00007f774c247800 WatcherThread [stack: 0x00007f7748cf6000,0x00007f7748df7000] [id=4473]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007f774c008110] CodeCache_lock - owner thread: 0x00007f774c0b6800
+[0x00007f774c009810] Compile_lock - owner thread: 0x00007f774c0b6800
+[0x00007f774c009910] MethodCompileQueue_lock - owner thread: 0x00007f774c0b6800
+
+Heap
+ def new generation   total 78720K, used 75863K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,  95% used [0x00000000b0000000, 0x00000000b4195e80, 0x00000000b4460000)
+  from space 8704K, 100% used [0x00000000b4ce0000, 0x00000000b5560000, 0x00000000b5560000)
+  to   space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+ tenured generation   total 174784K, used 45064K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  25% used [0x00000000c5550000, 0x00000000c81521b8, 0x00000000c8152200, 0x00000000d0000000)
+ compacting perm gen  total 41408K, used 41262K [0x00000000f0000000, 0x00000000f2870000, 0x0000000100000000)
+   the space 41408K,  99% used [0x00000000f0000000, 0x00000000f284bb58, 0x00000000f284bc00, 0x00000000f2870000)
+No shared spaces configured.
+
+Card table byte_map: [0x00007f7752c27000,0x00007f7752ea8000] byte_map_base: 0x00007f77526a7000
+
+Polling page: 0x00007f7756391000
+
+Code Cache  [0x00007f7749000000, 0x00007f7749280000, 0x00007f774c000000)
+ total_blobs=1122 nmethods=683 adapters=388 free_code_cache=46654Kb largest_free_block=47716672
+
+Compilation events (10 events):
+Event: 64.313 Thread 0x00007f774c0b9000 nmethod 801 0x00007f7749132910 code [0x00007f7749132a40, 0x00007f7749132ab8]
+Event: 64.313 Thread 0x00007f774c0b9000  802             org.eclipse.osgi.internal.loader.BundleLoader::findClass (7 bytes)
+Event: 65.551 Thread 0x00007f774c0b9000 nmethod 802 0x00007f774926f510 code [0x00007f774926f760, 0x00007f7749270a20]
+Event: 65.557 Thread 0x00007f774c0b9000  803             org.eclipse.osgi.internal.loader.BundleLoader::findClass (36 bytes)
+Event: 66.095 Thread 0x00007f774c0b9000 nmethod 803 0x00007f774915c350 code [0x00007f774915c4e0, 0x00007f774915c920]
+Event: 66.120 Thread 0x00007f774c0b9000  804             java.util.HashMap$KeyIterator::<init> (6 bytes)
+Event: 66.432 Thread 0x00007f774c0b9000 nmethod 804 0x00007f77492593d0 code [0x00007f7749259520, 0x00007f7749259738]
+Event: 66.469 Thread 0x00007f774c0b9000  805             java.util.HashMap$KeyIterator::<init> (11 bytes)
+Event: 82.671 Thread 0x00007f774c0b9000 nmethod 805 0x00007f77491f63d0 code [0x00007f77491f6520, 0x00007f77491f6738]
+Event: 83.043 Thread 0x00007f774c0b9000  806   !         org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader::loadClass (162 bytes)
+
+GC Heap History (10 events):
+Event: 33.052 GC heap before
+{Heap before GC invocations=4 (full 0):
+ def new generation   total 78656K, used 77803K [0x00000000b0000000, 0x00000000b5550000, 0x00000000c5550000)
+  eden space 69952K, 100% used [0x00000000b0000000, 0x00000000b4450000, 0x00000000b4450000)
+  from space 8704K,  90% used [0x00000000b4450000, 0x00000000b4bfae30, 0x00000000b4cd0000)
+  to   space 8704K,   0% used [0x00000000b4cd0000, 0x00000000b4cd0000, 0x00000000b5550000)
+ tenured generation   total 174784K, used 18690K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  10% used [0x00000000c5550000, 0x00000000c6790a90, 0x00000000c6790c00, 0x00000000d0000000)
+ compacting perm gen  total 21248K, used 20929K [0x00000000f0000000, 0x00000000f14c0000, 0x0000000100000000)
+   the space 21248K,  98% used [0x00000000f0000000, 0x00000000f1470498, 0x00000000f1470600, 0x00000000f14c0000)
+No shared spaces configured.
+Event: 33.091 GC heap after
+Heap after GC invocations=5 (full 0):
+ def new generation   total 78656K, used 7507K [0x00000000b0000000, 0x00000000b5550000, 0x00000000c5550000)
+  eden space 69952K,   0% used [0x00000000b0000000, 0x00000000b0000000, 0x00000000b4450000)
+  from space 8704K,  86% used [0x00000000b4cd0000, 0x00000000b5424e40, 0x00000000b5550000)
+  to   space 8704K,   0% used [0x00000000b4450000, 0x00000000b4450000, 0x00000000b4cd0000)
+ tenured generation   total 174784K, used 20957K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  11% used [0x00000000c5550000, 0x00000000c69c7470, 0x00000000c69c7600, 0x00000000d0000000)
+ compacting perm gen  total 21248K, used 20929K [0x00000000f0000000, 0x00000000f14c0000, 0x0000000100000000)
+   the space 21248K,  98% used [0x00000000f0000000, 0x00000000f1470498, 0x00000000f1470600, 0x00000000f14c0000)
+No shared spaces configured.
+}
+Event: 36.451 GC heap before
+{Heap before GC invocations=5 (full 0):
+ def new generation   total 78656K, used 60827K [0x00000000b0000000, 0x00000000b5550000, 0x00000000c5550000)
+  eden space 69952K,  76% used [0x00000000b0000000, 0x00000000b3412028, 0x00000000b4450000)
+  from space 8704K,  86% used [0x00000000b4cd0000, 0x00000000b5424e40, 0x00000000b5550000)
+  to   space 8704K,   0% used [0x00000000b4450000, 0x00000000b4450000, 0x00000000b4cd0000)
+ tenured generation   total 174784K, used 20957K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  11% used [0x00000000c5550000, 0x00000000c69c7470, 0x00000000c69c7600, 0x00000000d0000000)
+ compacting perm gen  total 26688K, used 26687K [0x00000000f0000000, 0x00000000f1a10000, 0x0000000100000000)
+   the space 26688K,  99% used [0x00000000f0000000, 0x00000000f1a0ffa0, 0x00000000f1a10000, 0x00000000f1a10000)
+No shared spaces configured.
+Event: 36.635 GC heap after
+Heap after GC invocations=6 (full 1):
+ def new generation   total 78720K, used 0K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,   0% used [0x00000000b0000000, 0x00000000b0000000, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 32224K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  18% used [0x00000000c5550000, 0x00000000c74c8050, 0x00000000c74c8200, 0x00000000d0000000)
+ compacting perm gen  total 26688K, used 26687K [0x00000000f0000000, 0x00000000f1a10000, 0x0000000100000000)
+   the space 26688K,  99% used [0x00000000f0000000, 0x00000000f1a0ffa0, 0x00000000f1a10000, 0x00000000f1a10000)
+No shared spaces configured.
+}
+Event: 39.275 GC heap before
+{Heap before GC invocations=6 (full 1):
+ def new generation   total 78720K, used 35705K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,  50% used [0x00000000b0000000, 0x00000000b22de4b8, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 32224K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  18% used [0x00000000c5550000, 0x00000000c74c8050, 0x00000000c74c8200, 0x00000000d0000000)
+ compacting perm gen  total 32128K, used 32127K [0x00000000f0000000, 0x00000000f1f60000, 0x0000000100000000)
+   the space 32128K,  99% used [0x00000000f0000000, 0x00000000f1f5ffb0, 0x00000000f1f60000, 0x00000000f1f60000)
+No shared spaces configured.
+Event: 39.442 GC heap after
+Heap after GC invocations=7 (full 2):
+ def new generation   total 78720K, used 0K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,   0% used [0x00000000b0000000, 0x00000000b0000000, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 37282K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  21% used [0x00000000c5550000, 0x00000000c79b8980, 0x00000000c79b8a00, 0x00000000d0000000)
+ compacting perm gen  total 32128K, used 32127K [0x00000000f0000000, 0x00000000f1f60000, 0x0000000100000000)
+   the space 32128K,  99% used [0x00000000f0000000, 0x00000000f1f5ffb0, 0x00000000f1f60000, 0x00000000f1f60000)
+No shared spaces configured.
+}
+Event: 41.856 GC heap before
+{Heap before GC invocations=7 (full 2):
+ def new generation   total 78720K, used 28198K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,  40% used [0x00000000b0000000, 0x00000000b1b899c8, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 37282K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  21% used [0x00000000c5550000, 0x00000000c79b8980, 0x00000000c79b8a00, 0x00000000d0000000)
+ compacting perm gen  total 37568K, used 37567K [0x00000000f0000000, 0x00000000f24b0000, 0x0000000100000000)
+   the space 37568K,  99% used [0x00000000f0000000, 0x00000000f24afcf0, 0x00000000f24afe00, 0x00000000f24b0000)
+No shared spaces configured.
+Event: 42.101 GC heap after
+Heap after GC invocations=8 (full 3):
+ def new generation   total 78720K, used 0K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,   0% used [0x00000000b0000000, 0x00000000b0000000, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 44542K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  25% used [0x00000000c5550000, 0x00000000c80cf870, 0x00000000c80cfa00, 0x00000000d0000000)
+ compacting perm gen  total 37568K, used 37567K [0x00000000f0000000, 0x00000000f24b0000, 0x0000000100000000)
+   the space 37568K,  99% used [0x00000000f0000000, 0x00000000f24afcf0, 0x00000000f24afe00, 0x00000000f24b0000)
+No shared spaces configured.
+}
+Event: 51.542 GC heap before
+{Heap before GC invocations=8 (full 3):
+ def new generation   total 78720K, used 70016K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K, 100% used [0x00000000b0000000, 0x00000000b4460000, 0x00000000b4460000)
+  from space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+  to   space 8704K,   0% used [0x00000000b4ce0000, 0x00000000b4ce0000, 0x00000000b5560000)
+ tenured generation   total 174784K, used 44542K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  25% used [0x00000000c5550000, 0x00000000c80cf870, 0x00000000c80cfa00, 0x00000000d0000000)
+ compacting perm gen  total 39168K, used 39020K [0x00000000f0000000, 0x00000000f2640000, 0x0000000100000000)
+   the space 39168K,  99% used [0x00000000f0000000, 0x00000000f261b160, 0x00000000f261b200, 0x00000000f2640000)
+No shared spaces configured.
+Event: 51.757 GC heap after
+Heap after GC invocations=9 (full 3):
+ def new generation   total 78720K, used 8704K [0x00000000b0000000, 0x00000000b5560000, 0x00000000c5550000)
+  eden space 70016K,   0% used [0x00000000b0000000, 0x00000000b0000000, 0x00000000b4460000)
+  from space 8704K, 100% used [0x00000000b4ce0000, 0x00000000b5560000, 0x00000000b5560000)
+  to   space 8704K,   0% used [0x00000000b4460000, 0x00000000b4460000, 0x00000000b4ce0000)
+ tenured generation   total 174784K, used 45064K [0x00000000c5550000, 0x00000000d0000000, 0x00000000f0000000)
+   the space 174784K,  25% used [0x00000000c5550000, 0x00000000c81521b8, 0x00000000c8152200, 0x00000000d0000000)
+ compacting perm gen  total 39168K, used 39020K [0x00000000f0000000, 0x00000000f2640000, 0x0000000100000000)
+   the space 39168K,  99% used [0x00000000f0000000, 0x00000000f261b160, 0x00000000f261b200, 0x00000000f2640000)
+No shared spaces configured.
+}
+
+Deoptimization events (10 events):
+Event: 58.166 Thread 0x00007f7734001800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f77490c7b70 method=java.io.BufferedInputStream.read([BII)I @ 101
+Event: 58.189 Thread 0x00007f7734001800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f77491d232c method=org.eclipse.osgi.internal.loader.BundleLoader.findRequiredSource(Ljava/lang/String;Lorg/eclipse/osgi/framework/util/KeyedHashSet;)Lorg/eclipse/osgi/internal/loader/Package
+Event: 58.443 Thread 0x00007f7734001800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f77491d232c method=org.eclipse.osgi.internal.loader.BundleLoader.findRequiredSource(Ljava/lang/String;Lorg/eclipse/osgi/framework/util/KeyedHashSet;)Lorg/eclipse/osgi/internal/loader/Package
+Event: 59.242 Thread 0x00007f774c422800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f77491e588c method=java.util.AbstractCollection.isEmpty()Z @ 1
+Event: 64.233 Thread 0x00007f770c738800 Uncommon trap: reason=bimorphic action=maybe_recompile pc=0x00007f77491e588c method=java.util.AbstractCollection.isEmpty()Z @ 1
+Event: 64.263 Thread 0x00007f774c416000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f774926a038 method=java.util.HashMap.keySet()Ljava/util/Set; @ 6
+Event: 67.263 Thread 0x00007f774c416000 Uncommon trap: reason=class_check action=maybe_recompile pc=0x00007f7749206aec method=java.io.DataOutputStream.write(I)V @ 5
+Event: 67.874 Thread 0x00007f774c416000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f774915d0a0 method=org.eclipse.osgi.internal.resolver.StateWriter.writeList(Ljava/io/DataOutputStream;[Ljava/lang/String;)V @ 1
+Event: 70.147 Thread 0x00007f774c416000 Uncommon trap: reason=unstable_if action=reinterpret pc=0x00007f7749103ce0 method=org.eclipse.osgi.internal.resolver.VersionConstraintImpl.getName()Ljava/lang/String; @ 16
+Event: 80.562 Thread 0x00007f774c416000 Uncommon trap: reason=array_check action=maybe_recompile pc=0x00007f7749093388 method=java.util.Arrays.fill([Ljava/lang/Object;Ljava/lang/Object;)V @ 13
+
+Internal exceptions (10 events):
+Event: 51.868 Thread 0x00007f774c422800 Threw 0x00000000b006fcf0 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 52.010 Thread 0x00007f774c422800 Threw 0x00000000b00b6b60 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 52.763 Thread 0x00007f774c422800 Threw 0x00000000b00ceda8 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 52.815 Thread 0x00007f774c422800 Threw 0x00000000b00dd698 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 53.754 Thread 0x00007f774c422800 Threw 0x00000000b08a13a8 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 54.579 Thread 0x00007f774c422800 Threw 0x00000000b1094860 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 54.583 Thread 0x00007f774c422800 Threw 0x00000000b1095618 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 54.585 Thread 0x00007f774c422800 Threw 0x00000000b10962f0 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+Event: 67.706 Thread 0x00007f774c416000 Implicit null exception at 0x00007f774915ce89 to 0x00007f774915d096
+Event: 80.144 Thread 0x00007f774c422800 Threw 0x00000000b33424c0 at /build/openjdk-7-zaTxYK/openjdk-7-7u91-2.6.3/build/openjdk/hotspot/src/share/vm/prims/jvm.cpp:1322
+
+Events (10 events):
+Event: 80.299 loading class 0x00007f770c83f8d0
+Event: 80.412 Thread 0x00007f774c416000 Uncommon trap: trap_request=0xffffffd6 fr.pc=0x00007f7749093388
+Event: 80.548 loading class 0x00007f77281c01d0
+Event: 80.692 Thread 0x00007f774c416000 DEOPT PACKING pc=0x00007f7749093388 sp=0x00007f7748bf33c0
+Event: 80.828 Thread 0x00007f774c416000 DEOPT UNPACKING pc=0x00007f7749039445 sp=0x00007f7748bf3378 mode 2
+Event: 81.590 loading class 0x00007f77281c01d0 done
+Event: 81.671 loading class 0x00007f770c83f8d0 done
+Event: 81.800 Thread 0x00007f774c416000 Thread exited: 0x00007f774c416000
+Event: 85.218 loading class 0x00007f7728018690
+Event: 85.589 loading class 0x00007f7728018690 done
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:01 12076                              /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+00600000-00601000 r--p 00000000 08:01 12076                              /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+00601000-00602000 rw-p 00001000 08:01 12076                              /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+01fac000-02010000 rw-p 00000000 00:00 0                                  [heap]
+b0000000-b5560000 rw-p 00000000 00:00 0 
+b5560000-c5550000 rw-p 00000000 00:00 0 
+c5550000-d0000000 rw-p 00000000 00:00 0 
+d0000000-f0000000 rw-p 00000000 00:00 0 
+f0000000-f2870000 rw-p 00000000 00:00 0 
+f2870000-100000000 rw-p 00000000 00:00 0 
+7f770c000000-7f770c849000 rw-p 00000000 00:00 0 
+7f770c849000-7f7710000000 ---p 00000000 00:00 0 
+7f7711e88000-7f7711e8b000 ---p 00000000 00:00 0 
+7f7711e8b000-7f7711f89000 rw-p 00000000 00:00 0                          [stack:4735]
+7f7711f89000-7f7711ff2000 r--s 00a4c000 08:01 1077379                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/lucene_5.2.1.wso2v1.jar
+7f7711ff2000-7f7711ff5000 ---p 00000000 00:00 0 
+7f7711ff5000-7f77120f3000 rw-p 00000000 00:00 0                          [stack:4723]
+7f77120f3000-7f77120f6000 ---p 00000000 00:00 0 
+7f77120f6000-7f77121f4000 rw-p 00000000 00:00 0                          [stack:4720]
+7f77121f4000-7f771226c000 r-xp 00000000 08:01 788476                     /usr/lib/x86_64-linux-gnu/nss/libfreebl3.so
+7f771226c000-7f771246b000 ---p 00078000 08:01 788476                     /usr/lib/x86_64-linux-gnu/nss/libfreebl3.so
+7f771246b000-7f771246d000 r--p 00077000 08:01 788476                     /usr/lib/x86_64-linux-gnu/nss/libfreebl3.so
+7f771246d000-7f771246e000 rw-p 00079000 08:01 788476                     /usr/lib/x86_64-linux-gnu/nss/libfreebl3.so
+7f771246e000-7f7712472000 rw-p 00000000 00:00 0 
+7f7712472000-7f7712526000 r-xp 00000000 08:01 535762                     /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f7712526000-7f7712726000 ---p 000b4000 08:01 535762                     /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f7712726000-7f7712728000 r--p 000b4000 08:01 535762                     /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f7712728000-7f771272a000 rw-p 000b6000 08:01 535762                     /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f771272a000-7f771272b000 rw-p 00000000 00:00 0 
+7f771272b000-7f771276b000 r-xp 00000000 08:01 788482                     /usr/lib/x86_64-linux-gnu/nss/libsoftokn3.so
+7f771276b000-7f771296b000 ---p 00040000 08:01 788482                     /usr/lib/x86_64-linux-gnu/nss/libsoftokn3.so
+7f771296b000-7f771296c000 r--p 00040000 08:01 788482                     /usr/lib/x86_64-linux-gnu/nss/libsoftokn3.so
+7f771296c000-7f771296d000 rw-p 00041000 08:01 788482                     /usr/lib/x86_64-linux-gnu/nss/libsoftokn3.so
+7f771296d000-7f77129a5000 r-xp 00000000 08:01 535564                     /usr/lib/x86_64-linux-gnu/libnspr4.so
+7f77129a5000-7f7712ba5000 ---p 00038000 08:01 535564                     /usr/lib/x86_64-linux-gnu/libnspr4.so
+7f7712ba5000-7f7712ba6000 r--p 00038000 08:01 535564                     /usr/lib/x86_64-linux-gnu/libnspr4.so
+7f7712ba6000-7f7712ba7000 rw-p 00039000 08:01 535564                     /usr/lib/x86_64-linux-gnu/libnspr4.so
+7f7712ba7000-7f7712baa000 rw-p 00000000 00:00 0 
+7f7712baa000-7f7712bad000 r-xp 00000000 08:01 535628                     /usr/lib/x86_64-linux-gnu/libplds4.so
+7f7712bad000-7f7712dac000 ---p 00003000 08:01 535628                     /usr/lib/x86_64-linux-gnu/libplds4.so
+7f7712dac000-7f7712dad000 r--p 00002000 08:01 535628                     /usr/lib/x86_64-linux-gnu/libplds4.so
+7f7712dad000-7f7712dae000 rw-p 00003000 08:01 535628                     /usr/lib/x86_64-linux-gnu/libplds4.so
+7f7712dae000-7f7712db2000 r-xp 00000000 08:01 535627                     /usr/lib/x86_64-linux-gnu/libplc4.so
+7f7712db2000-7f7712fb1000 ---p 00004000 08:01 535627                     /usr/lib/x86_64-linux-gnu/libplc4.so
+7f7712fb1000-7f7712fb2000 r--p 00003000 08:01 535627                     /usr/lib/x86_64-linux-gnu/libplc4.so
+7f7712fb2000-7f7712fb3000 rw-p 00004000 08:01 535627                     /usr/lib/x86_64-linux-gnu/libplc4.so
+7f7712fb3000-7f7712fd8000 r-xp 00000000 08:01 535573                     /usr/lib/x86_64-linux-gnu/libnssutil3.so
+7f7712fd8000-7f77131d7000 ---p 00025000 08:01 535573                     /usr/lib/x86_64-linux-gnu/libnssutil3.so
+7f77131d7000-7f77131dd000 r--p 00024000 08:01 535573                     /usr/lib/x86_64-linux-gnu/libnssutil3.so
+7f77131dd000-7f77131de000 rw-p 0002a000 08:01 535573                     /usr/lib/x86_64-linux-gnu/libnssutil3.so
+7f77131de000-7f7713311000 r-xp 00000000 08:01 535565                     /usr/lib/x86_64-linux-gnu/libnss3.so
+7f7713311000-7f7713510000 ---p 00133000 08:01 535565                     /usr/lib/x86_64-linux-gnu/libnss3.so
+7f7713510000-7f7713515000 r--p 00132000 08:01 535565                     /usr/lib/x86_64-linux-gnu/libnss3.so
+7f7713515000-7f7713517000 rw-p 00137000 08:01 535565                     /usr/lib/x86_64-linux-gnu/libnss3.so
+7f7713517000-7f7713518000 rw-p 00000000 00:00 0 
+7f7713518000-7f771351b000 ---p 00000000 00:00 0 
+7f771351b000-7f7713619000 rw-p 00000000 00:00 0                          [stack:4708]
+7f7713635000-7f7713691000 r--s 00501000 08:01 1077386                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/opensaml2_2.4.1.wso2v1.jar
+7f7713691000-7f7713694000 ---p 00000000 00:00 0 
+7f7713694000-7f7713792000 rw-p 00000000 00:00 0                          [stack:4719]
+7f7713792000-7f7713795000 ---p 00000000 00:00 0 
+7f7713795000-7f7713893000 rw-p 00000000 00:00 0                          [stack:4717]
+7f7713893000-7f7713896000 ---p 00000000 00:00 0 
+7f7713896000-7f7713994000 rw-p 00000000 00:00 0                          [stack:4716]
+7f7713994000-7f7713997000 ---p 00000000 00:00 0 
+7f7713997000-7f7713a95000 rw-p 00000000 00:00 0                          [stack:4715]
+7f7713a95000-7f7713aa5000 r-xp 00000000 08:01 12140                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libj2pkcs11.so
+7f7713aa5000-7f7713ca4000 ---p 00010000 08:01 12140                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libj2pkcs11.so
+7f7713ca4000-7f7713ca5000 r--p 0000f000 08:01 12140                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libj2pkcs11.so
+7f7713ca5000-7f7713ca6000 rw-p 00010000 08:01 12140                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libj2pkcs11.so
+7f7713ca6000-7f7713ca9000 ---p 00000000 00:00 0 
+7f7713ca9000-7f7713da7000 rw-p 00000000 00:00 0                          [stack:4704]
+7f7713da7000-7f7713daa000 ---p 00000000 00:00 0 
+7f7713daa000-7f7713ea8000 rw-p 00000000 00:00 0                          [stack:4702]
+7f7713ea8000-7f7713eab000 ---p 00000000 00:00 0 
+7f7713eab000-7f7713fa9000 rw-p 00000000 00:00 0                          [stack:4701]
+7f7714000000-7f7714073000 rw-p 00000000 00:00 0 
+7f7714073000-7f7718000000 ---p 00000000 00:00 0 
+7f7718000000-7f7718021000 rw-p 00000000 00:00 0 
+7f7718021000-7f771c000000 ---p 00000000 00:00 0 
+7f771c000000-7f771c02f000 rw-p 00000000 00:00 0 
+7f771c02f000-7f7720000000 ---p 00000000 00:00 0 
+7f7720000000-7f7720021000 rw-p 00000000 00:00 0 
+7f7720021000-7f7724000000 ---p 00000000 00:00 0 
+7f7724000000-7f7724021000 rw-p 00000000 00:00 0 
+7f7724021000-7f7728000000 ---p 00000000 00:00 0 
+7f7728000000-7f7728244000 rw-p 00000000 00:00 0 
+7f7728244000-7f772c000000 ---p 00000000 00:00 0 
+7f772c000000-7f772c9c3000 rw-p 00000000 00:00 0 
+7f772c9c3000-7f7730000000 ---p 00000000 00:00 0 
+7f7730000000-7f7730021000 rw-p 00000000 00:00 0 
+7f7730021000-7f7734000000 ---p 00000000 00:00 0 
+7f7734000000-7f7734021000 rw-p 00000000 00:00 0 
+7f7734021000-7f7738000000 ---p 00000000 00:00 0 
+7f7738000000-7f7739142000 rw-p 00000000 00:00 0 
+7f7739142000-7f773c000000 ---p 00000000 00:00 0 
+7f773c000000-7f773c021000 rw-p 00000000 00:00 0 
+7f773c021000-7f7740000000 ---p 00000000 00:00 0 
+7f7740000000-7f7740279000 rw-p 00000000 00:00 0 
+7f7740279000-7f7744000000 ---p 00000000 00:00 0 
+7f7744000000-7f77440f1000 rw-p 00000000 00:00 0 
+7f77440f1000-7f7748000000 ---p 00000000 00:00 0 
+7f7748003000-7f7748006000 ---p 00000000 00:00 0 
+7f7748006000-7f7748104000 rw-p 00000000 00:00 0                          [stack:4714]
+7f7748104000-7f7748107000 ---p 00000000 00:00 0 
+7f7748107000-7f7748205000 rw-p 00000000 00:00 0                          [stack:4700]
+7f774821c000-7f7748256000 r--s 003af000 08:01 1077833                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/solr_5.2.1.wso2v1.jar
+7f7748256000-7f7748259000 ---p 00000000 00:00 0 
+7f7748259000-7f7748357000 rw-p 00000000 00:00 0                          [stack:4707]
+7f7748360000-7f774836b000 r--s 00085000 08:01 1077357                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/httpclient_4.3.1.wso2v2.jar
+7f774836b000-7f7748380000 r--s 0015e000 08:01 1077839                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/synapse-core_2.1.3.wso2v11.jar
+7f7748380000-7f774838a000 r--s 0008b000 08:01 1077312                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/apache-zookeeper_3.3.4.wso2v1.jar
+7f774838a000-7f774839d000 r--s 0012c000 08:01 1077309                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/ant_1.7.0.wso2v1.jar
+7f774839d000-7f77483da000 r--s 006dd000 08:01 1077854                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/wsdl-validator_1.2.0.wso2v1.jar
+7f77483da000-7f77483e7000 r--s 00140000 08:01 683645                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/default/configuration/org.eclipse.osgi/bundles/50/1/.cp/h2-1.2.140-wso2v3.jar
+7f77483e7000-7f774840c000 r--s 00212000 08:01 1077315                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/axiom_1.2.11.wso2v6.jar
+7f774840c000-7f774840f000 ---p 00000000 00:00 0 
+7f774840f000-7f774850d000 rw-p 00000000 00:00 0                          [stack:4711]
+7f7748516000-7f774852d000 r--s 0031f000 08:01 1077805                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ui_4.4.1.jar
+7f774852d000-7f774854d000 r--s 002b1000 08:01 685869                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/default/configuration/org.eclipse.osgi/bundles/478/1/.cp/xalan-2.7.1.wso2v1.jar
+7f774854d000-7f7748550000 r--s 0001f000 08:01 1077847                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/tomcat-catalina-ha_7.0.59.wso2v1.jar
+7f7748551000-7f7748558000 r--s 00047000 08:01 1077358                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/httpcore-nio_4.3.3.wso2v1.jar
+7f7748558000-7f7748561000 r--s 000fd000 08:01 1077842                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/synapse-nhttp-transport_2.1.3.wso2v11.jar
+7f7748561000-7f7748590000 r--s 00353000 08:01 1077851                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/tomcat_7.0.59.wso2v3.jar
+7f7748590000-7f77485e1000 r--s 00738000 08:01 1077324                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/axis2_1.6.1.wso2v14.jar
+7f77485e1000-7f77485e9000 r--s 000e4000 08:01 1077497                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.core_4.4.1.jar
+7f77485e9000-7f77485ef000 r--s 00062000 08:01 1077808                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.user.core_4.4.1.jar
+7f77485f3000-7f77485f8000 r--s 0004b000 08:01 1077714                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.extensions_4.4.5.jar
+7f77485f8000-7f7748604000 r--s 00286000 08:01 1077351                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/h2-database-engine_1.2.140.wso2v3.jar
+7f7748604000-7f7748607000 ---p 00000000 00:00 0 
+7f7748607000-7f7748705000 rw-p 00000000 00:00 0                          [stack:4710]
+7f7748705000-7f774870f000 r--s 0006d000 08:01 1077313                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/atomikos_3.8.0.wso2v1.jar
+7f7748710000-7f7748714000 r--s 00024000 08:01 1077529                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.governance.api_4.5.2.jar
+7f7748714000-7f7748717000 r--s 00015000 08:01 1077533                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.governance.list_4.5.2.jar
+7f7748717000-7f7748721000 r--s 000bd000 08:01 1077710                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.core_4.4.1.jar
+7f7748723000-7f7748727000 r--s 0002c000 08:01 1077850                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/tomcat-servlet-api_7.0.59.wso2v1.jar
+7f7748727000-7f7748731000 r--s 000ae000 08:01 12160                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar
+7f7748731000-7f7748733000 r--s 00005000 08:01 1077706                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.admin.api_4.4.5.jar
+7f7748736000-7f7748739000 r--s 00029000 08:01 1077780                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.mgt.stub_4.4.3.jar
+7f7748739000-7f774873b000 r--s 00003000 08:01 1077777                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.dispatcher_4.4.3.jar
+7f7748740000-7f7748745000 r--s 000ae000 08:01 1077510                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.endpoint.ui_4.4.10.jar
+7f7748745000-7f774874a000 r--s 0008a000 08:01 685868                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/default/configuration/org.eclipse.osgi/bundles/478/1/.cp/org.wso2.carbon.wsdl2form-4.4.7.jar
+7f774874a000-7f774874d000 r--s 00010000 08:01 1077788                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.throttling.agent_4.4.3.jar
+7f7748750000-7f7748752000 r--s 0000d000 08:01 1077775                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.common_4.4.7.jar
+7f7748752000-7f7748754000 r--s 00027000 08:01 1077772                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.task.ui_4.4.10.jar
+7f7748754000-7f7748757000 r--s 00021000 08:01 1077771                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.task.stub_4.4.10.jar
+7f7748757000-7f774875e000 r--s 0003e000 08:01 1077359                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/httpcore_4.3.3.wso2v1.jar
+7f774875e000-7f7748764000 r--s 00053000 08:01 1077464                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.sat4j.core_2.3.5.v201308161310.jar
+7f7748764000-7f7748767000 r--s 00029000 08:01 1077580                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.mediation.initializer_4.4.10.jar
+7f7748767000-7f7748769000 r--s 00015000 08:01 1077393                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar
+7f774876a000-7f774876f000 r--s 00037000 08:01 1077465                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.sat4j.pb_2.3.5.v201308161310.jar
+7f774876f000-7f7748771000 r--s 0000e000 08:01 1077730                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.search_4.4.5.jar
+7f7748771000-7f7748774000 r--s 00023000 08:01 1077366                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/jdbc-pool_7.0.34.wso2v2.jar
+7f7748774000-7f7748778000 r--s 00029000 08:01 1077339                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/commons-io_2.4.0.wso2v1.jar
+7f7748778000-7f774877d000 r--s 0003b000 08:01 1077813                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.utils_4.4.1.jar
+7f774877d000-7f774877f000 r--s 00005000 08:01 1077807                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.user.api_4.4.1.jar
+7f7748780000-7f7748782000 r--s 00007000 08:01 1077607                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.mediator.bam.config_4.4.10.jar
+7f7748782000-7f7748784000 r--s 00009000 08:01 1077599                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.mediation.throttle_4.4.10.jar
+7f7748784000-7f7748786000 r--s 00015000 08:01 1077395                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar
+7f7748786000-7f7748789000 r--s 00013000 08:01 1077394                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.core.expressions_3.4.500.v20130515-1343.jar
+7f7748789000-7f774878b000 r--s 0000e000 08:01 1077496                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.core.services_4.4.1.jar
+7f774878b000-7f774878e000 r--s 0002a000 08:01 1077454                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar
+7f774878e000-7f7748791000 r--s 00018000 08:01 1077403                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar
+7f7748791000-7f7748794000 r--s 00013000 08:01 1077363                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/javax.cache.wso2_4.4.1.jar
+7f7748794000-7f7748795000 r--s 00008000 08:01 1077844                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/synapse-tasks_2.1.3.wso2v11.jar
+7f7748795000-7f7748797000 r--s 00009000 08:01 1077773                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.task_4.4.10.jar
+7f774879b000-7f774879e000 r--s 0001c000 08:01 1077453                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar
+7f774879e000-7f77487a1000 r--s 0000c000 08:01 1077709                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.common_4.4.5.jar
+7f77487a1000-7f77487a4000 r--s 00027000 08:01 1077715                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.indexing_4.4.5.jar
+7f77487a4000-7f77487a9000 r--s 0002b000 08:01 1077855                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/wsdl4j_1.6.2.wso2v4.jar
+7f77487a9000-7f77487ad000 r--s 0003b000 08:01 1077534                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.governance.registry.extensions_4.5.2.jar
+7f77487ad000-7f77487ae000 r--s 00008000 08:01 1077682                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.module.mgt_4.5.0.jar
+7f77487ae000-7f77487b0000 r--s 00008000 08:01 1077541                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.identity.authenticator.saml2.sso_4.5.6.jar
+7f77487b0000-7f77487b3000 r--s 00018000 08:01 1077690                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ntask.core_4.4.7.jar
+7f77487b3000-7f77487b6000 r--s 00012000 08:01 1077849                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/tomcat-jsp-api_7.0.59.wso2v1.jar
+7f77487b6000-7f77487c0000 r--s 000f1000 08:01 1077806                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.um.ws.api.stub_4.4.7.jar
+7f77487c0000-7f77487c2000 r--s 00001000 08:01 1077804                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ui.menu.tools_4.4.1.jar
+7f77487c2000-7f77487c3000 r--s 00002000 08:01 1077803                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ui.menu.stratos_2.2.0.jar
+7f77487c3000-7f77487c4000 r--s 00001000 08:01 1077802                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ui.menu.registry_4.4.1.jar
+7f77487c4000-7f77487c5000 r--s 00002000 08:01 1077801                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.ui.menu.general_4.4.1.jar
+7f77487c6000-7f77487c8000 r--s 00010000 08:01 1077396                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar
+7f77487c8000-7f77487ca000 r--s 00008000 08:01 1077553                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.identity.user.store.configuration_4.5.6.jar
+7f77487ca000-7f77487cc000 r--s 00037000 08:01 1077818                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.esb.styles_4.9.0.jar
+7f77487cc000-7f77487ce000 r--s 00013000 08:01 1077799                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tryit.ui_4.4.7.jar
+7f77487ce000-7f77487d0000 r--s 005fb000 08:01 1077800                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tryit_4.4.7.jar
+7f77487d0000-7f77487d2000 r--s 00003000 08:01 1077798                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.transaction.manager_4.4.7.jar
+7f77487d2000-7f77487d4000 r--s 00022000 08:01 1077796                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tracer.ui_4.4.7.jar
+7f77487d4000-7f77487d7000 r--s 00014000 08:01 1077795                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tracer.stub_4.4.7.jar
+7f77487d7000-7f77487da000 r--s 0000b000 08:01 1077794                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tools.wsdlvalidator_4.4.7.jar
+7f77487da000-7f77487dc000 r--s 00007000 08:01 1077792                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tomcat_4.4.1.jar
+7f77487dc000-7f77487de000 r--s 00007000 08:01 1077502                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.deployment.synchronizer.subversion_4.4.7.jar
+7f77487de000-7f77487e0000 r--s 00008000 08:01 1077590                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.mediation.security_4.4.10.jar
+7f77487e0000-7f77487e2000 r--s 00003000 08:01 1077707                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.registry.api_4.4.1.jar
+7f77487e2000-7f77487e4000 r--s 0000e000 08:01 1077791                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tomcat.ext_4.4.1.jar
+7f77487e4000-7f77487e7000 r--s 0000e000 08:01 1077789                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.usage.agent_4.4.3.jar
+7f77487e7000-7f77487e9000 r--s 00006000 08:01 1077787                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.theme.mgt_4.4.3.jar
+7f77487e9000-7f77487eb000 r--s 00036000 08:01 1077786                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.sso.redirector.ui_4.4.3.jar
+7f77487eb000-7f77487ed000 r--s 00004000 08:01 1077779                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.mgt.core_4.4.3.jar
+7f77487ed000-7f77487ef000 r--s 0000d000 08:01 1077782                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.mgt_4.4.3.jar
+7f77487ef000-7f77487f1000 r--s 000e4000 08:01 1077778                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.keystore.mgt_4.4.3.jar
+7f77487f1000-7f77487f4000 ---p 00000000 00:00 0 
+7f77487f4000-7f77488f2000 rw-p 00000000 00:00 0                          [stack:4543]
+7f77488f2000-7f77488f5000 ---p 00000000 00:00 0 
+7f77488f5000-7f77489f3000 rw-p 00000000 00:00 0                          [stack:4511]
+7f77489f3000-7f77489f6000 ---p 00000000 00:00 0 
+7f77489f6000-7f7748af4000 rw-p 00000000 00:00 0                          [stack:4510]
+7f7748af4000-7f7748af7000 ---p 00000000 00:00 0 
+7f7748af7000-7f7748bf5000 rw-p 00000000 00:00 0 
+7f7748bf5000-7f7748bf8000 ---p 00000000 00:00 0 
+7f7748bf8000-7f7748cf6000 rw-p 00000000 00:00 0                          [stack:4494]
+7f7748cf6000-7f7748cf7000 ---p 00000000 00:00 0 
+7f7748cf7000-7f7748df7000 rw-p 00000000 00:00 0                          [stack:4473]
+7f7748df7000-7f7748dff000 r-xp 00000000 08:01 12114                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7f7748dff000-7f7748ffe000 ---p 00008000 08:01 12114                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7f7748ffe000-7f7748fff000 r--p 00007000 08:01 12114                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7f7748fff000-7f7749000000 rw-p 00008000 08:01 12114                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libmanagement.so
+7f7749000000-7f7749280000 rwxp 00000000 00:00 0 
+7f7749290000-7f774c4a0000 rw-p 00000000 00:00 0 
+7f774c4a0000-7f7750000000 ---p 00000000 00:00 0 
+7f7750000000-7f7750001000 r--s 0000b000 08:01 1077587                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.mediation.registry_4.4.10.jar
+7f7750001000-7f7750003000 r--s 00004000 08:01 1077784                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.redirector.servlet.ui_4.4.3.jar
+7f7750003000-7f7750004000 r--s 00005000 08:01 1077535                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.governance.wsdltool_4.5.2.jar
+7f7750004000-7f7750006000 r--s 00003000 08:01 1077785                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.redirector.servlet_4.4.3.jar
+7f7750006000-7f7750007000 r--s 00010000 08:01 1077482                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.bam.mediationstats.data.publisher.ui_4.4.10.jar
+7f7750007000-7f7750008000 r--s 00008000 08:01 1077797                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tracer_4.4.7.jar
+7f7750008000-7f775000a000 r--s 0000a000 08:01 1077783                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.redirector.servlet.stub_4.4.3.jar
+7f775000a000-7f775000c000 r--s 0001d000 08:01 1077781                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.mgt.ui_4.4.3.jar
+7f775000c000-7f775000e000 r--s 00003000 08:01 1077776                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.deployment_4.4.3.jar
+7f775000e000-7f775000f000 r--s 0000c000 08:01 1077774                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tenant.common.stub_4.4.7.jar
+7f775000f000-7f7750011000 r--s 00001000 08:01 1077528                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.framework.exporter_4.4.1.jar
+7f7750011000-7f7750014000 r--s 00017000 08:01 12088                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar
+7f7750014000-7f7750028000 r--s 00140000 08:01 1077462                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.eclipse.osgi_3.9.1.v20130814-1242.jar
+7f7750028000-7f775002b000 ---p 00000000 00:00 0 
+7f775002b000-7f7750061000 rw-p 00000000 00:00 0 
+7f7750061000-7f775006b000 r--s 0007b000 08:01 681998                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/org.wso2.carbon.logging-4.4.1.jar
+7f775006b000-7f775006e000 ---p 00000000 00:00 0 
+7f775006e000-7f775016c000 rw-p 00000000 00:00 0                          [stack:4472]
+7f775016c000-7f775017c000 r-xp 00000000 08:01 12106                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnio.so
+7f775017c000-7f775037c000 ---p 00010000 08:01 12106                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnio.so
+7f775037c000-7f775037d000 r--p 00010000 08:01 12106                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnio.so
+7f775037d000-7f775037e000 rw-p 00011000 08:01 12106                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnio.so
+7f775037e000-7f77503af000 rw-p 00000000 00:00 0 
+7f77503af000-7f77503ec000 r-xp 00000000 08:01 267031                     /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+7f77503ec000-7f77505eb000 ---p 0003d000 08:01 267031                     /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+7f77505eb000-7f77505ec000 r--p 0003c000 08:01 267031                     /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+7f77505ec000-7f77505ed000 rw-p 0003d000 08:01 267031                     /lib/x86_64-linux-gnu/libpcre.so.3.13.1
+7f77505ed000-7f77505f4000 r-xp 00000000 08:01 535150                     /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f77505f4000-7f77507f3000 ---p 00007000 08:01 535150                     /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f77507f3000-7f77507f4000 r--p 00006000 08:01 535150                     /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f77507f4000-7f77507f5000 rw-p 00007000 08:01 535150                     /usr/lib/x86_64-linux-gnu/libffi.so.6.0.1
+7f77507f5000-7f775080c000 r-xp 00000000 08:01 267054                     /lib/x86_64-linux-gnu/libresolv-2.19.so
+7f775080c000-7f7750a0c000 ---p 00017000 08:01 267054                     /lib/x86_64-linux-gnu/libresolv-2.19.so
+7f7750a0c000-7f7750a0d000 r--p 00017000 08:01 267054                     /lib/x86_64-linux-gnu/libresolv-2.19.so
+7f7750a0d000-7f7750a0e000 rw-p 00018000 08:01 267054                     /lib/x86_64-linux-gnu/libresolv-2.19.so
+7f7750a0e000-7f7750a10000 rw-p 00000000 00:00 0 
+7f7750a10000-7f7750a30000 r-xp 00000000 08:01 267058                     /lib/x86_64-linux-gnu/libselinux.so.1
+7f7750a30000-7f7750c2f000 ---p 00020000 08:01 267058                     /lib/x86_64-linux-gnu/libselinux.so.1
+7f7750c2f000-7f7750c30000 r--p 0001f000 08:01 267058                     /lib/x86_64-linux-gnu/libselinux.so.1
+7f7750c30000-7f7750c31000 rw-p 00020000 08:01 267058                     /lib/x86_64-linux-gnu/libselinux.so.1
+7f7750c31000-7f7750c33000 rw-p 00000000 00:00 0 
+7f7750c33000-7f7750c36000 r-xp 00000000 08:01 535263                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4002.0
+7f7750c36000-7f7750e35000 ---p 00003000 08:01 535263                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4002.0
+7f7750e35000-7f7750e36000 r--p 00002000 08:01 535263                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4002.0
+7f7750e36000-7f7750e37000 rw-p 00003000 08:01 535263                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.4002.0
+7f7750e37000-7f7750f3d000 r-xp 00000000 08:01 266959                     /lib/x86_64-linux-gnu/libglib-2.0.so.0.4002.0
+7f7750f3d000-7f775113c000 ---p 00106000 08:01 266959                     /lib/x86_64-linux-gnu/libglib-2.0.so.0.4002.0
+7f775113c000-7f775113d000 r--p 00105000 08:01 266959                     /lib/x86_64-linux-gnu/libglib-2.0.so.0.4002.0
+7f775113d000-7f775113e000 rw-p 00106000 08:01 266959                     /lib/x86_64-linux-gnu/libglib-2.0.so.0.4002.0
+7f775113e000-7f775113f000 rw-p 00000000 00:00 0 
+7f775113f000-7f775118e000 r-xp 00000000 08:01 535279                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4002.0
+7f775118e000-7f775138e000 ---p 0004f000 08:01 535279                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4002.0
+7f775138e000-7f775138f000 r--p 0004f000 08:01 535279                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4002.0
+7f775138f000-7f7751390000 rw-p 00050000 08:01 535279                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.4002.0
+7f7751390000-7f77514fc000 r-xp 00000000 08:01 535251                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4002.0
+7f77514fc000-7f77516fb000 ---p 0016c000 08:01 535251                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4002.0
+7f77516fb000-7f77516ff000 r--p 0016b000 08:01 535251                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4002.0
+7f77516ff000-7f7751701000 rw-p 0016f000 08:01 535251                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.4002.0
+7f7751701000-7f7751703000 rw-p 00000000 00:00 0 
+7f7751703000-7f7751704000 r--s 0000a000 08:01 1077793                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.tools.wsdlvalidator.ui_4.4.7.jar
+7f7751704000-7f7751705000 r--s 00008000 08:01 1077790                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins/org.wso2.carbon.throttling.agent.stub_4.4.4.jar
+7f7751705000-7f775170a000 r--s 00032000 08:01 681847                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/ant-contrib-1.0b3.jar
+7f775170a000-7f775170b000 r--s 00005000 08:01 682001                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/org.wso2.ciphertool-1.0.0-wso2v3.jar
+7f775170b000-7f775170d000 r--s 00010000 08:01 682000                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/org.wso2.carbon.server-4.4.1.jar
+7f775170d000-7f7751713000 r--s 00057000 08:01 682002                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/sandesha2-core-1.6.1-wso2v1.jar
+7f7751713000-7f7751718000 r--s 0004e000 08:01 12152                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar
+7f7751718000-7f775172f000 r-xp 00000000 08:01 12139                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnet.so
+7f775172f000-7f775192e000 ---p 00017000 08:01 12139                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnet.so
+7f775192e000-7f775192f000 r--p 00016000 08:01 12139                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnet.so
+7f775192f000-7f7751930000 rw-p 00017000 08:01 12139                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libnet.so
+7f7751930000-7f7751935000 r--s 00040000 08:01 681997                     /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/commons-lang-2.6.0.wso2v1.jar
+7f7751935000-7f7751937000 r--s 00008000 08:01 1073653                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/bin/tomcat-juli-7.0.59.jar
+7f7751937000-7f7751938000 r--s 0000c000 08:01 1073650                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/bin/tcpmon-1.0.jar
+7f7751938000-7f775193a000 r--s 00003000 08:01 1073649                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/bin/org.wso2.carbon.bootstrap-4.4.1.jar
+7f775193a000-7f775193c000 r--s 00006000 08:01 798866                     /usr/share/java/java-atk-wrapper.jar
+7f775193c000-7f7751940000 r--s 0003c000 08:01 12094                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+7f7751940000-7f7751944000 r--s 00085000 08:01 12091                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/localedata.jar
+7f7751944000-7f7751948000 r--s 00034000 08:01 12093                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+7f7751948000-7f7751949000 r--s 00002000 08:01 12095                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/dnsns.jar
+7f7751949000-7f775194c000 r--s 0000f000 08:01 12092                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+7f775194c000-7f775194f000 ---p 00000000 00:00 0 
+7f775194f000-7f7751a4d000 rw-p 00000000 00:00 0                          [stack:4459]
+7f7751a4d000-7f7751a50000 ---p 00000000 00:00 0 
+7f7751a50000-7f7751b4e000 rw-p 00000000 00:00 0                          [stack:4458]
+7f7751b4e000-7f7751b51000 ---p 00000000 00:00 0 
+7f7751b51000-7f7751c4f000 rw-p 00000000 00:00 0                          [stack:4457]
+7f7751c4f000-7f7751c52000 ---p 00000000 00:00 0 
+7f7751c52000-7f7751d50000 rw-p 00000000 00:00 0                          [stack:4456]
+7f7751d50000-7f7752432000 r--p 00000000 08:01 532898                     /usr/lib/locale/locale-archive
+7f7752432000-7f7752435000 ---p 00000000 00:00 0 
+7f7752435000-7f7752533000 rw-p 00000000 00:00 0                          [stack:4455]
+7f7752533000-7f7752536000 ---p 00000000 00:00 0 
+7f7752536000-7f7752634000 rw-p 00000000 00:00 0                          [stack:4454]
+7f7752634000-7f7752635000 ---p 00000000 00:00 0 
+7f7752635000-7f775277e000 rw-p 00000000 00:00 0                          [stack:4453]
+7f775277e000-7f7752930000 r--s 01d2e000 08:01 12099                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+7f7752930000-7f7752957000 r--s 00911000 08:01 1073680                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/saxon9he.jar
+7f7752957000-7f7752a65000 rw-p 00000000 00:00 0 
+7f7752a65000-7f7752ad1000 rw-p 00000000 00:00 0 
+7f7752ad1000-7f7752b27000 rw-p 00000000 00:00 0 
+7f7752b27000-7f7752c27000 rw-p 00000000 00:00 0 
+7f7752c27000-7f7752c52000 rw-p 00000000 00:00 0 
+7f7752c52000-7f7752cd1000 rw-p 00000000 00:00 0 
+7f7752cd1000-7f7752d27000 rw-p 00000000 00:00 0 
+7f7752d27000-7f7752e27000 rw-p 00000000 00:00 0 
+7f7752e27000-7f7752e3c000 rw-p 00000000 00:00 0 
+7f7752e3c000-7f7752ea7000 rw-p 00000000 00:00 0 
+7f7752ea7000-7f7752ea8000 rw-p 00000000 00:00 0 
+7f7752ea8000-7f7752eb0000 r-xp 00000000 08:01 12110                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libzip.so
+7f7752eb0000-7f77530af000 ---p 00008000 08:01 12110                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libzip.so
+7f77530af000-7f77530b0000 r--p 00007000 08:01 12110                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libzip.so
+7f77530b0000-7f77530b1000 rw-p 00008000 08:01 12110                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libzip.so
+7f77530b1000-7f77530bc000 r-xp 00000000 08:01 267003                     /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f77530bc000-7f77532bb000 ---p 0000b000 08:01 267003                     /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f77532bb000-7f77532bc000 r--p 0000a000 08:01 267003                     /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f77532bc000-7f77532bd000 rw-p 0000b000 08:01 267003                     /lib/x86_64-linux-gnu/libnss_files-2.19.so
+7f77532bd000-7f77532c8000 r-xp 00000000 08:01 267013                     /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f77532c8000-7f77534c7000 ---p 0000b000 08:01 267013                     /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f77534c7000-7f77534c8000 r--p 0000a000 08:01 267013                     /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f77534c8000-7f77534c9000 rw-p 0000b000 08:01 267013                     /lib/x86_64-linux-gnu/libnss_nis-2.19.so
+7f77534c9000-7f77534e0000 r-xp 00000000 08:01 266997                     /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f77534e0000-7f77536df000 ---p 00017000 08:01 266997                     /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f77536df000-7f77536e0000 r--p 00016000 08:01 266997                     /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f77536e0000-7f77536e1000 rw-p 00017000 08:01 266997                     /lib/x86_64-linux-gnu/libnsl-2.19.so
+7f77536e1000-7f77536e3000 rw-p 00000000 00:00 0 
+7f77536e3000-7f77536ec000 r-xp 00000000 08:01 266999                     /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f77536ec000-7f77538eb000 ---p 00009000 08:01 266999                     /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f77538eb000-7f77538ec000 r--p 00008000 08:01 266999                     /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f77538ec000-7f77538ed000 rw-p 00009000 08:01 266999                     /lib/x86_64-linux-gnu/libnss_compat-2.19.so
+7f77538ed000-7f7753918000 r-xp 00000000 08:01 12118                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libjava.so
+7f7753918000-7f7753b18000 ---p 0002b000 08:01 12118                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libjava.so
+7f7753b18000-7f7753b19000 r--p 0002b000 08:01 12118                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libjava.so
+7f7753b19000-7f7753b1b000 rw-p 0002c000 08:01 12118                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libjava.so
+7f7753b1b000-7f7753b2b000 r-xp 00000000 08:01 12134                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libverify.so
+7f7753b2b000-7f7753d2a000 ---p 00010000 08:01 12134                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libverify.so
+7f7753d2a000-7f7753d2c000 r--p 0000f000 08:01 12134                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libverify.so
+7f7753d2c000-7f7753d2d000 rw-p 00011000 08:01 12134                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/libverify.so
+7f7753d2d000-7f7753d34000 r-xp 00000000 08:01 267056                     /lib/x86_64-linux-gnu/librt-2.19.so
+7f7753d34000-7f7753f33000 ---p 00007000 08:01 267056                     /lib/x86_64-linux-gnu/librt-2.19.so
+7f7753f33000-7f7753f34000 r--p 00006000 08:01 267056                     /lib/x86_64-linux-gnu/librt-2.19.so
+7f7753f34000-7f7753f35000 rw-p 00007000 08:01 267056                     /lib/x86_64-linux-gnu/librt-2.19.so
+7f7753f35000-7f7753f4b000 r-xp 00000000 08:01 266955                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f7753f4b000-7f775414a000 ---p 00016000 08:01 266955                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f775414a000-7f775414b000 rw-p 00015000 08:01 266955                     /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f775414b000-7f7754250000 r-xp 00000000 08:01 266978                     /lib/x86_64-linux-gnu/libm-2.19.so
+7f7754250000-7f775444f000 ---p 00105000 08:01 266978                     /lib/x86_64-linux-gnu/libm-2.19.so
+7f775444f000-7f7754450000 r--p 00104000 08:01 266978                     /lib/x86_64-linux-gnu/libm-2.19.so
+7f7754450000-7f7754451000 rw-p 00105000 08:01 266978                     /lib/x86_64-linux-gnu/libm-2.19.so
+7f7754451000-7f7754537000 r-xp 00000000 08:01 535772                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f7754537000-7f7754736000 ---p 000e6000 08:01 535772                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f7754736000-7f775473e000 r--p 000e5000 08:01 535772                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f775473e000-7f7754740000 rw-p 000ed000 08:01 535772                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19
+7f7754740000-7f7754755000 rw-p 00000000 00:00 0 
+7f7754755000-7f7755279000 r-xp 00000000 08:01 12125                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7f7755279000-7f7755479000 ---p 00b24000 08:01 12125                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7f7755479000-7f7755513000 r--p 00b24000 08:01 12125                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7f7755513000-7f7755536000 rw-p 00bbe000 08:01 12125                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server/libjvm.so
+7f7755536000-7f7755564000 rw-p 00000000 00:00 0 
+7f7755564000-7f775557c000 r-xp 00000000 08:01 267091                     /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f775557c000-7f775577b000 ---p 00018000 08:01 267091                     /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f775577b000-7f775577c000 r--p 00017000 08:01 267091                     /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f775577c000-7f775577d000 rw-p 00018000 08:01 267091                     /lib/x86_64-linux-gnu/libz.so.1.2.8
+7f775577d000-7f7755796000 r-xp 00000000 08:01 267048                     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f7755796000-7f7755995000 ---p 00019000 08:01 267048                     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f7755995000-7f7755996000 r--p 00018000 08:01 267048                     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f7755996000-7f7755997000 rw-p 00019000 08:01 267048                     /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f7755997000-7f775599b000 rw-p 00000000 00:00 0 
+7f775599b000-7f775599e000 r-xp 00000000 08:01 266945                     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f775599e000-7f7755b9d000 ---p 00003000 08:01 266945                     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f7755b9d000-7f7755b9e000 r--p 00002000 08:01 266945                     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f7755b9e000-7f7755b9f000 rw-p 00003000 08:01 266945                     /lib/x86_64-linux-gnu/libdl-2.19.so
+7f7755b9f000-7f7755d5a000 r-xp 00000000 08:01 266928                     /lib/x86_64-linux-gnu/libc-2.19.so
+7f7755d5a000-7f7755f59000 ---p 001bb000 08:01 266928                     /lib/x86_64-linux-gnu/libc-2.19.so
+7f7755f59000-7f7755f5d000 r--p 001ba000 08:01 266928                     /lib/x86_64-linux-gnu/libc-2.19.so
+7f7755f5d000-7f7755f5f000 rw-p 001be000 08:01 266928                     /lib/x86_64-linux-gnu/libc-2.19.so
+7f7755f5f000-7f7755f64000 rw-p 00000000 00:00 0 
+7f7755f64000-7f7755f71000 r-xp 00000000 08:01 12136                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7f7755f71000-7f7756170000 ---p 0000d000 08:01 12136                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7f7756170000-7f7756171000 r--p 0000c000 08:01 12136                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7f7756171000-7f7756172000 rw-p 0000d000 08:01 12136                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/jli/libjli.so
+7f7756172000-7f7756195000 r-xp 00000000 08:01 266904                     /lib/x86_64-linux-gnu/ld-2.19.so
+7f7756195000-7f7756197000 r--s 00012000 08:01 12090                      /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext/zipfs.jar
+7f7756197000-7f775619a000 r--s 00005000 08:01 1073678                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/geronimo-jms_1.1_spec-1.1.0.wso2v1.jar
+7f775619a000-7f775619d000 r--s 00021000 08:01 1073685                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/xml-apis-1.3.04.wso2v2.jar
+7f775619d000-7f77561b3000 r--s 00111000 08:01 1073684                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/xercesImpl-2.8.1.wso2v2.jar
+7f77561b3000-7f77561b7000 r--s 00024000 08:01 1073681                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/stax2-api-3.1.4.jar
+7f77561b7000-7f77561c1000 rw-p 00000000 00:00 0 
+7f77561c1000-7f7756277000 rw-p 00000000 00:00 0 
+7f7756277000-7f775627a000 ---p 00000000 00:00 0 
+7f775627a000-7f775637d000 rw-p 00000000 00:00 0                          [stack:4452]
+7f775637d000-7f775637e000 r--s 00003000 08:01 1073682                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/tomcat-annotations-api-7.0.59.jar
+7f775637e000-7f775637f000 r--s 00003000 08:01 1073679                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/geronimo-jta_1.1_spec-1.1.jar
+7f775637f000-7f7756382000 r--s 0000c000 08:01 1073677                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/geronimo-jaxws_2.2_spec-1.0.jar
+7f7756382000-7f7756388000 r--s 00071000 08:01 1073683                    /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed/woodstox-core-asl-4.4.1.jar
+7f7756388000-7f7756390000 rw-s 00000000 08:01 1225754                    /tmp/hsperfdata_pierre/4451
+7f7756390000-7f7756391000 rw-p 00000000 00:00 0 
+7f7756391000-7f7756392000 r--p 00000000 00:00 0 
+7f7756392000-7f7756394000 rw-p 00000000 00:00 0 
+7f7756394000-7f7756395000 r--p 00022000 08:01 266904                     /lib/x86_64-linux-gnu/ld-2.19.so
+7f7756395000-7f7756396000 rw-p 00023000 08:01 266904                     /lib/x86_64-linux-gnu/ld-2.19.so
+7f7756396000-7f7756397000 rw-p 00000000 00:00 0 
+7ffd8a806000-7ffd8a828000 rw-p 00000000 00:00 0                          [stack]
+7ffd8a84e000-7ffd8a850000 r--p 00000000 00:00 0                          [vvar]
+7ffd8a850000-7ffd8a852000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xbootclasspath/a: -Xms256m -Xmx1024m -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/logs/heap-dump.hprof -Dcom.sun.management.jmxremote -Djava.endorsed.dirs=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/endorsed:/usr//jre/lib/endorsed:/usr//lib/endorsed -Djava.io.tmpdir=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/tmp -Dcatalina.base=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/tomcat -Dwso2.server.standalone=true -Dcarbon.registry.root=/ -Djava.command=/usr//bin/java -Dcarbon.home=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0 -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Dcarbon.config.dir.path=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/conf -Djava.util.logging.config.file=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/conf/etc/logging-bridge.properties -Dcomponents.repo=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/components/plugins -Dconf.location=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/conf -Dcom.atomikos.icatch.file=/home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties -Dcom.atomikos.icatch.hide_init_file_path=true -Dorg.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING=false -Dorg.apache.jasper.runtime.BodyContentImpl.LIMIT_BUFFER=true -Dcom.sun.jndi.ldap.connect.pool.authentication=simple -Dcom.sun.jndi.ldap.connect.pool.timeout=3000 -Dorg.terracotta.quartz.skipUpdateCheck=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF8 -Djava.net.preferIPv4Stack=true -Dcom.ibm.cacheLocalHost=true -DworkerNode=false 
+java_command: org.wso2.carbon.bootstrap.Bootstrap
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=/usr/
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/pierre/Desktop/node-v4.2.3-linux-x64/bin:/usr/bin/
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x9548f0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x9548f0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x7cb0b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: SIG_IGN, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGXFSZ: [libjvm.so+0x7cb0b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x7cb0b0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x7caf50], sa_mask[0]=0x00000000, sa_flags=0x10000004
+SIGHUP: [libjvm.so+0x7cb130], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGINT: [libjvm.so+0x7cb130], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTERM: [libjvm.so+0x7cb130], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGQUIT: [libjvm.so+0x7cb130], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGTRAP: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+
+
+---------------  S Y S T E M  ---------------
+
+OS:Ubuntu 14.04 (trusty)
+uname:Linux 3.19.0-30-generic #34~14.04.1-Ubuntu SMP Fri Oct 2 22:09:39 UTC 2015 x86_64
+libc:glibc 2.19 NPTL 2.19 
+rlimit: STACK 8192k, CORE 0k, NPROC 3856, NOFILE 4096, AS infinity
+load average:7.39 3.06 1.89
+
+/proc/meminfo:
+MemTotal:        1008676 kB
+MemFree:           49268 kB
+MemAvailable:       5960 kB
+Buffers:             148 kB
+Cached:             4416 kB
+SwapCached:           24 kB
+Active:           399492 kB
+Inactive:         403140 kB
+Active(anon):     397444 kB
+Inactive(anon):   400996 kB
+Active(file):       2048 kB
+Inactive(file):     2144 kB
+Unevictable:          32 kB
+Mlocked:              32 kB
+SwapTotal:       1046524 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             4 kB
+AnonPages:        798432 kB
+Mapped:             3424 kB
+Shmem:                96 kB
+Slab:              56220 kB
+SReclaimable:      21812 kB
+SUnreclaim:        34408 kB
+KernelStack:       13776 kB
+PageTables:        35648 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1550860 kB
+Committed_AS:    7009268 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      295152 kB
+VmallocChunk:   34359401868 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    237568 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      100224 kB
+DirectMap2M:      948224 kB
+
+
+CPU:total 2 (1 cores per cpu, 1 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, tsc, tscinvbit
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz
+stepping	: 7
+microcode	: 0x28
+cpu MHz		: 2792.526
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx hypervisor lahf_lm ida arat epb pln pts dtherm xsaveopt
+bugs		:
+bogomips	: 5585.05
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 42
+model name	: Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz
+stepping	: 7
+microcode	: 0x28
+cpu MHz		: 2792.526
+cache size	: 4096 KB
+physical id	: 2
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt aes xsave avx hypervisor lahf_lm ida arat epb pln pts dtherm xsaveopt
+bugs		:
+bogomips	: 5585.05
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 1008676k(49312k free), swap 1046524k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (24.91-b01) for linux-amd64 JRE (1.7.0_91-b02), built on Nov 19 2015 06:14:37 by "buildd" with gcc 4.8.2
+
+time: Mon Jan 25 14:19:40 2016
+elapsed time: 88 seconds
+

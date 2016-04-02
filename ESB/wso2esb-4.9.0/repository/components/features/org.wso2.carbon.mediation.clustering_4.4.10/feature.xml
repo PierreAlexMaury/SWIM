@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediation.clustering" label="WSO2 Carbon - Mediation Clustering Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for Clustering</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.mediation.clustering" unpack="false" version="4.4.10"/>
+</feature>

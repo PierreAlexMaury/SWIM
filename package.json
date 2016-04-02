@@ -1,0 +1,34 @@
+{
+  "name": "swim15cf",
+  "version": "1.0.0",
+  "description": "SWIM project for Thales client created by the CFCorporation",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-jasmine-nodejs": "^1.4.3",
+    "kerberos": "0.0.17",
+    "load-grunt-config": "^0.19.1",
+    "mongodb": "^2.1.4"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-grunt": "^0.2.4",
+    "load-grunt-tasks": "^3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rprevost@www.etud.insa-toulouse.fr/stash/scm/swima/swim15cf.git"
+  },
+  "keywords": [
+    "SWIM",
+    "Thales",
+    "ESB",
+    "INSA",
+    "CFCorporation"
+  ],
+  "author": "CFCorporation",
+  "license": "ISC"
+}

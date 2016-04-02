@@ -1,0 +1,35 @@
+.x-tab-focus.x-tab-default{
+  outline: none !important;
+}
+
+.x-tab.x-tab-active.x-tab-default{
+  background-color: lighten($base-color,10%) !important;
+}
+
+.x-unselectable.x-box-item.x-tab-default.x-bottom.x-tab-bottom.x-tab-default-bottom{
+  border-radius: 30px;
+  margin-top: 3px !important;
+  margin-right: 10px !important;
+  height: 39px;
+  top: 0px !important;
+}
+
+.x-box-inner.x-box-scroller-body-horizontal{
+  overflow: visible;
+}
+
+.fa-line-chart{
+  font-size: 20px !important;
+  right: 1px;
+  position: relative;
+}
+
+.fa-file-text-o{
+  font-size: 20px !important;
+  right: 0px;
+  position: relative;
+}
+
+.x-tab-bar-strip.x-tab-bar-strip-default{
+  height: 2px;
+}

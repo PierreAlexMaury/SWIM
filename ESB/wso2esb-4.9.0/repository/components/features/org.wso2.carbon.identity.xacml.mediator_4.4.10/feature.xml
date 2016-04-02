@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.identity.xacml.mediator" label="WSO2 Carbon - XACML Mediation Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for XACML Mediation functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="libthrift" unpack="false" version="0.8.0.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.proxy" unpack="false" version="4.5.6"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.stub" unpack="false" version="4.5.6"/>
+  <plugin id="org.wso2.carbon.authenticator.stub" unpack="false" version="4.4.1"/>
+  <plugin id="slf4j" unpack="false" version="1.5.10.wso2v1"/>
+  <plugin id="org.wso2.carbon.identity.entitlement.mediator" unpack="false" version="4.4.10"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.1"/>
+    <import feature="org.apache.synapse.wso2" match="equivalent" version="4.4.10"/>
+  </require>
+</feature>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.event.sink" label="WSO2 Carbon - Evenk Sink Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for Event Sink functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.databridge.datapublisher" match="equivalent" version="4.4.7"/>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.1"/>
+  </require>
+  <includes id="org.wso2.carbon.event.sink.config" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.event.sink.server" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.event.sink.config.ui" optional="false" version="4.4.10"/>
+</feature>

@@ -1,0 +1,41 @@
+STEPS TO INSTALL & RUN RABBITMQ:
+
+I - Installing Erlang
+
+1. Download Erlang Programming Language: Source File (65.0 MB) 
+
+	http://www.erlang.org/download.html
+
+2. Follow The Warrior Method:
+
+	http://www.erlang.org/doc/installation_guide/INSTALL.html
+
+	Tested in unbuntu, should work for OS X ( only the building method that change)
+
+	Ensure that An Erlang runtime system is started with command erl
+
+II - Installing RabbitMQ
+
+Follow https://www.rabbitmq.com/download.html
+
+You should be able to launch RabbitMQ server with rabbitmq-server script
+
+STEPS TO INSTALL & RUN MONGODB
+
+1- Follow the full guide : https://docs.mongodb.org/v3.0/administration/install-on-linux/
+			   https://docs.mongodb.org/v3.0/tutorial/install-mongodb-on-os-x/
+
+( I used the default config of the guide )
+
+2- You should be able to launch the DB server with the command line : mongod
+   (Mongodb needs write permission on /data/db ensure that)
+
+3- To find or query data use mongo shell : mongo
+
+4- Install mongodb module : npm install mongodb
+   This module install kerboros module implicitly if there is errors, install the Kerberos Development Package: sudo apt-get install libkrb5-dev
+   and ignore npm errors
+
+USEFUL INFO
+
+database name : swim  |  collections so far : scenarios

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.apache.synapse.transport.vfs.smb" label="WSO2 Carbon - Synapse VFS Transport's SMB supports Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature powers the synapse vfs transport's smb support feature</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import match="equivalent" plugin="jcifs" version="1.3.17.wso2v1"/>
+  </require>
+</feature>

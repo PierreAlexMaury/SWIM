@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.task.server" label="WSO2 Carbon - Scheduled Tasks Core Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the core bundles required for Back-end Scheduled Tasks functionality</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.task" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.task.services" unpack="false" version="4.4.10"/>
+  <require>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.1"/>
+    <import feature="org.apache.synapse.wso2" match="equivalent" version="4.4.10"/>
+  </require>
+</feature>

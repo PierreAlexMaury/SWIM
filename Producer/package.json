@@ -1,0 +1,16 @@
+{
+  "name": "swim-producer",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-jasmine-nodejs": "^1.4.3",
+    "soap": "^0.11.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.0.0",
+    "request": "^2.67.0",
+    "soap": "^0.11.4"
+  }
+}

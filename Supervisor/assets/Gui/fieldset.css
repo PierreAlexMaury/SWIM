@@ -1,0 +1,14 @@
+/* line 3, sass/var/fieldset.scss */
+.x-fieldset {
+  background: white !important;
+}
+
+/* line 7, sass/var/fieldset.scss */
+.x-form-item-label-default {
+  color: black !important;
+}
+
+/* line 11, sass/var/fieldset.scss */
+.x-toolbar-footer {
+  background-color: white !important;
+}

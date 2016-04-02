@@ -1,0 +1,39 @@
+/**
+* Example of an initial loading indicator.
+* It is recommended to keep this as minimal as possible to provide instant feedback
+* while other resources are still being loaded for the first time
+*/
+html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.loading-panel-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading-panel {
+    display: table;
+    width: 100px;
+    height: 80px;
+    padding: 0px 30px;
+
+    animation: 1s bounce ease infinite;
+}
+
+.loading-panel img {
+    width:100px;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-20px);
+    }
+}

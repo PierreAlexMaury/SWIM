@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.rule.mediation.common" label="WSO2 Carbon - Rule Mediation Common Feature" provider-name="%providerName" version="4.4.1">
+  <description>This feature contains the bundles required for Rule mediation</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.rule.common" unpack="false" version="4.4.1"/>
+</feature>

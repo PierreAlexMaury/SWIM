@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.cloud.gateway.agent" label="WSO2 Carbon - Cloud Gateway Agent Feature" provider-name="%providerName" version="4.4.10">
+  <description>WSO2 is an open source application development software company focused on providing service-oriented
+        architecture solutions for professional developers.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.1"/>
+  </require>
+  <includes id="org.wso2.carbon.cloud.gateway.agent.server" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.cloud.gateway.agent.ui" optional="false" version="4.4.10"/>
+</feature>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediation.ui" label="WSO2 Carbon - Mediation ui Features" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains ui features of mediation</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.sequences.common" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.localentry.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.sequences.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.artifactuploader.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.security.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.artifactuploader.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.proxyadmin.common" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.sequences.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.library.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.rest.api.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.proxyadmin.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.inbound.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.processor.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediator.service" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.library.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.endpoint.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.priority.executors.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.localentry.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.proxyadmin.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.security.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.priority.executors.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.rest.api.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.task.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.task.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.processor.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.endpoint.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.inbound.stub" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.mediation.templates.service" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.store.ui" unpack="false" version="4.4.10"/>
+  <plugin id="org.wso2.carbon.message.store.stub" unpack="false" version="4.4.10"/>
+  <require>
+    <import feature="org.wso2.carbon.mediation.initializer.server" match="equivalent" version="4.4.10"/>
+    <import feature="org.wso2.carbon.core.ui" match="equivalent" version="4.4.1"/>
+    <import feature="org.wso2.carbon.core.server" match="equivalent" version="4.4.1"/>
+    <import feature="org.wso2.carbon.mediation.admin" match="equivalent" version="4.4.10"/>
+    <import feature="org.apache.synapse.wso2" match="equivalent" version="4.4.10"/>
+  </require>
+</feature>

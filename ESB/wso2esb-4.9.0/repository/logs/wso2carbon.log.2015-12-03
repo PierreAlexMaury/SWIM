@@ -1,0 +1,1031 @@
+TID: [-1234] [] [2015-12-03 00:00:00,362]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:22e11b59-eb4e-4b83-b38e-2783e3022540, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>4</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:01,371]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:8e953d8f-9abb-43a7-a54b-ed799eb97c9e, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>5</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:02,377]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:54fc0e70-2753-456a-96d4-56ed8b1f00c9, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>6</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:02,451]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:0a616fc5-da01-4194-aada-dea7009737d7, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>1:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:03,374]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:1f08c394-2457-4068-86d0-17e66785e3ed, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>2:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:03,383]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:9c453774-6e60-43d1-83db-ad7984fd4171, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>7</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:04,377]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:33d8c154-33ab-46e6-95a6-317d67e26c25, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>3:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:04,392]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:6cd0cd53-f32c-4bdc-ae54-52ab695bc0dc, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>8</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:05,392]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:4f2b41cd-3a38-4247-a47e-e9efd9ea4015, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>9</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:05,406]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:86351ab1-add2-4e20-98c4-6351ca52d1e7, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>4:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:06,386]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:c55f8d39-21f2-49d1-8d5c-0a4018913986, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>5:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:06,407]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:91810cd9-ef05-46d3-b570-6da4c6d5d47a, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>10</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:07,399]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:147d54f6-22f6-48a4-9f2a-d3fd7f4b39be, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>6:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:07,416]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:fac47f8c-c22e-4419-8fad-cf6458b8f932, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>11</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:08,396]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:470dd80a-fbe9-42f6-90d3-e335d4f6c22d, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>7:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:08,422]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:a4a94d54-6e41-4616-ba75-b31a448ea933, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>12</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:09,411]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:5d9e4bdf-c70e-4b8a-85ef-edac9a2d8075, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>8:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:09,428]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:8adc834a-fb35-4ba4-9d42-eef75014b66b, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>13</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:10,405]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:07e892e4-908c-422d-bfe6-bdd4731f2de3, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>9:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:10,430]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/logProv.logProvHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:93aa7b22-34ad-4581-910a-c2b136293460, Direction: request, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl" xmlns:axis2wrapped="urn:examples:provideservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soap:Body><axis2wrapped:provide><id>14</id><size>2</size><processing_time>5000</processing_time></axis2wrapped:provide></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:11,424]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:fef910d0-7bdd-4b1c-8550-ba216612325d, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>10:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:12,428]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:0f8b51b9-e7a3-420e-88e7-b5cd2d388656, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>11:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:13,439]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:bd024c56-95a0-48cc-a4eb-119bfc49233c, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>12:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:14,439]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:4659b123-284e-42cf-88cd-1fcbb1240915, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>13:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:15,444]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:c6141473-0d58-45cb-ba42-3e22d6ec229c, Direction: response, Envelope: <?xml version='1.0' encoding='utf-8'?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://localhost:8002/provideService?wsdl"><soap:Body><tns:provideResponse><message>14:aa</message></tns:provideResponse></soap:Body></soap:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:00:45,983] ERROR {org.apache.axis2.rpc.receivers.RPCMessageReceiver} -  Exception occurred while trying to invoke service method getDataForGraph {org.apache.axis2.rpc.receivers.RPCMessageReceiver}
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.axis2.rpc.receivers.RPCUtil.invokeServiceClass(RPCUtil.java:178)
+	at org.apache.axis2.rpc.receivers.RPCMessageReceiver.invokeBusinessLogic(RPCMessageReceiver.java:117)
+	at org.apache.axis2.receivers.AbstractInOutMessageReceiver.invokeBusinessLogic(AbstractInOutMessageReceiver.java:40)
+	at org.apache.axis2.receivers.AbstractMessageReceiver.receive(AbstractMessageReceiver.java:110)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.axis2.transport.local.LocalTransportReceiver.processMessage(LocalTransportReceiver.java:169)
+	at org.apache.axis2.transport.local.LocalTransportReceiver.processMessage(LocalTransportReceiver.java:82)
+	at org.wso2.carbon.core.transports.local.CarbonLocalTransportSender.finalizeSendWithToAddress(CarbonLocalTransportSender.java:45)
+	at org.apache.axis2.transport.local.LocalTransportSender.invoke(LocalTransportSender.java:77)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:430)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.wso2.carbon.mediation.statistics.stub.MediationStatisticsAdminStub.getDataForGraph(MediationStatisticsAdminStub.java:560)
+	at org.wso2.carbon.mediation.statistics.ui.client.MediationStatisticsClient.getDataForGraph(MediationStatisticsClient.java:75)
+	at org.apache.jsp.mediationstats.statistics_005fmain_jsp._jspService(statistics_005fmain_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:155)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:604)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:543)
+	at org.eclipse.equinox.http.servlet.internal.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:37)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor$RequestDispatcherAdaptor.include(ContextPathServletAdaptor.java:369)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+	at org.apache.jasper.runtime.PageContextImpl.doInclude(PageContextImpl.java:688)
+	at org.apache.jasper.runtime.PageContextImpl.include(PageContextImpl.java:682)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tiles.jsp.context.JspUtil.doInclude(JspUtil.java:87)
+	at org.apache.tiles.jsp.context.JspTilesRequestContext.include(JspTilesRequestContext.java:88)
+	at org.apache.tiles.jsp.context.JspTilesRequestContext.dispatch(JspTilesRequestContext.java:82)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:465)
+	at org.apache.tiles.jsp.taglib.InsertAttributeTag.render(InsertAttributeTag.java:140)
+	at org.apache.tiles.jsp.taglib.InsertAttributeTag.render(InsertAttributeTag.java:117)
+	at org.apache.tiles.jsp.taglib.RenderTagSupport.execute(RenderTagSupport.java:171)
+	at org.apache.tiles.jsp.taglib.RoleSecurityTagSupport.doEndTag(RoleSecurityTagSupport.java:75)
+	at org.apache.tiles.jsp.taglib.ContainerTagSupport.doEndTag(ContainerTagSupport.java:80)
+	at org.apache.jsp.admin.layout.template_jsp._jspx_meth_tiles_005finsertAttribute_005f7(template_jsp.java:640)
+	at org.apache.jsp.admin.layout.template_jsp._jspService(template_jsp.java:356)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:155)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.eclipse.equinox.http.servlet.internal.RequestDispatcherAdaptor.forward(RequestDispatcherAdaptor.java:30)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor$RequestDispatcherAdaptor.forward(ContextPathServletAdaptor.java:362)
+	at org.apache.tiles.servlet.context.ServletTilesRequestContext.forward(ServletTilesRequestContext.java:198)
+	at org.apache.tiles.servlet.context.ServletTilesRequestContext.dispatch(ServletTilesRequestContext.java:185)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:419)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:370)
+	at org.wso2.carbon.ui.action.ActionHelper.render(ActionHelper.java:52)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:101)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:159)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1698)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.lang.NullPointerException
+	at org.wso2.carbon.mediation.statistics.MediationStatisticsAdmin.getCategoryStatistics(MediationStatisticsAdmin.java:62)
+	at org.wso2.carbon.mediation.statistics.MediationStatisticsAdmin.getServerStatistics(MediationStatisticsAdmin.java:138)
+	at org.wso2.carbon.mediation.statistics.MediationStatisticsAdmin.getDataForGraph(MediationStatisticsAdmin.java:80)
+	... 127 more
+TID: [-1234] [] [2015-12-03 00:00:46,028] ERROR {org.wso2.carbon.mediation.statistics.ui.client.MediationStatisticsClient} -  Exception occurred while trying to invoke service method getDataForGraph {org.wso2.carbon.mediation.statistics.ui.client.MediationStatisticsClient}
+org.apache.axis2.AxisFault: Exception occurred while trying to invoke service method getDataForGraph
+	at org.apache.axis2.util.Utils.getInboundFaultFromMessageContext(Utils.java:531)
+	at org.apache.axis2.description.OutInAxisOperationClient.handleResponse(OutInAxisOperation.java:370)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:445)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.wso2.carbon.mediation.statistics.stub.MediationStatisticsAdminStub.getDataForGraph(MediationStatisticsAdminStub.java:560)
+	at org.wso2.carbon.mediation.statistics.ui.client.MediationStatisticsClient.getDataForGraph(MediationStatisticsClient.java:75)
+	at org.apache.jsp.mediationstats.statistics_005fmain_jsp._jspService(statistics_005fmain_jsp.java:174)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:155)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:604)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:543)
+	at org.eclipse.equinox.http.servlet.internal.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:37)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor$RequestDispatcherAdaptor.include(ContextPathServletAdaptor.java:369)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:954)
+	at org.apache.jasper.runtime.PageContextImpl.doInclude(PageContextImpl.java:688)
+	at org.apache.jasper.runtime.PageContextImpl.include(PageContextImpl.java:682)
+	at sun.reflect.GeneratedMethodAccessor42.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tiles.jsp.context.JspUtil.doInclude(JspUtil.java:87)
+	at org.apache.tiles.jsp.context.JspTilesRequestContext.include(JspTilesRequestContext.java:88)
+	at org.apache.tiles.jsp.context.JspTilesRequestContext.dispatch(JspTilesRequestContext.java:82)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:465)
+	at org.apache.tiles.jsp.taglib.InsertAttributeTag.render(InsertAttributeTag.java:140)
+	at org.apache.tiles.jsp.taglib.InsertAttributeTag.render(InsertAttributeTag.java:117)
+	at org.apache.tiles.jsp.taglib.RenderTagSupport.execute(RenderTagSupport.java:171)
+	at org.apache.tiles.jsp.taglib.RoleSecurityTagSupport.doEndTag(RoleSecurityTagSupport.java:75)
+	at org.apache.tiles.jsp.taglib.ContainerTagSupport.doEndTag(ContainerTagSupport.java:80)
+	at org.apache.jsp.admin.layout.template_jsp._jspx_meth_tiles_005finsertAttribute_005f7(template_jsp.java:640)
+	at org.apache.jsp.admin.layout.template_jsp._jspService(template_jsp.java:356)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:155)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:748)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:486)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:411)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:338)
+	at org.eclipse.equinox.http.servlet.internal.RequestDispatcherAdaptor.forward(RequestDispatcherAdaptor.java:30)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor$RequestDispatcherAdaptor.forward(ContextPathServletAdaptor.java:362)
+	at org.apache.tiles.servlet.context.ServletTilesRequestContext.forward(ServletTilesRequestContext.java:198)
+	at org.apache.tiles.servlet.context.ServletTilesRequestContext.dispatch(ServletTilesRequestContext.java:185)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:419)
+	at org.apache.tiles.impl.BasicTilesContainer.render(BasicTilesContainer.java:370)
+	at org.wso2.carbon.ui.action.ActionHelper.render(ActionHelper.java:52)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:101)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:159)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1698)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:744)
+TID: [-1234] [] [2015-12-03 00:03:07,679]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:07,680]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:07,683]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,683]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:03:07,684]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8243 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:03:07,686]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTPS-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:03:07,687]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:03:07,690]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8280 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:03:07,691]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTP-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:03:07,692]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,694]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,700]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,700]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,702]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,703]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,711]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Writing logs  {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [-1234] [] [2015-12-03 00:03:07,712]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:03:07,712]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:07,712]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:07,851]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [-1234] [] [2015-12-03 00:03:07,969]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2015-12-03 00:03:07,972]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1] [] [2015-12-03 00:03:07,973]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:03:07,974]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:03:07,975]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:03:10,297]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [-1234] [] [2015-12-03 00:03:11,500]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:11,501]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:03:42,873]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,877]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.11.0-20-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,877]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-7-openjdk-amd64/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,877]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_55 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,877]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : OpenJDK 64-Bit Server VM 24.51-b03,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,877]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/pierre/swim15cf/ESB/wso2esb-4.9.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,878]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:42,878]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : pierre, fr-FR, Europe/Paris {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:03:43,024]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter}
+TID: [-1] [] [2015-12-03 00:03:43,037]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! {org.wso2.carbon.databridge.agent.thrift.AgentHolder}
+TID: [-1] [] [2015-12-03 00:03:43,063]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS}
+TID: [-1234] [] [2015-12-03 00:03:45,527]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 61ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [-1234] [] [2015-12-03 00:03:45,662]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [-1234] [] [2015-12-03 00:03:48,323]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:03:48,789]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent}
+TID: [-1] [] [2015-12-03 00:03:56,753]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined {org.apache.catalina.startup.TaglibUriRule}
+TID: [-1234] [] [2015-12-03 00:03:57,454]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [-1234] [] [2015-12-03 00:03:57,633]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2015-12-03 00:03:57,633]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2015-12-03 00:03:57,646]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2015-12-03 00:03:57,665]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Identity Keystore from : repository/resources/security/wso2carbon.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2015-12-03 00:03:57,668]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Trust Keystore from : repository/resources/security/client-truststore.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2015-12-03 00:03:57,690]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2015-12-03 00:03:57,691]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:03:57,694]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:03:57,704]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:03:57,744]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:03:57,833]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v14 - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/client/modules/addressing-1.6.1-wso2v14.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [-1234] [] [2015-12-03 00:03:57,839]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v12 - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/client/modules/rampart-1.6.1-wso2v12.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [-1234] [] [2015-12-03 00:03:58,855]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} -  We don't support method overloading. Ignoring [validateAudienceRestriction] {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator}
+TID: [-1234] [] [2015-12-03 00:03:59,491]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.processor-4.4.10 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:03:59,508]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.store-4.4.10 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:04:00,799]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: wso2carbon-sts {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:04:00,829]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-4.5.6 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:04:01,045]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.4.7 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:04:01,438]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:04:01,779]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy... {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig}
+TID: [-1234] [] [2015-12-03 00:04:01,801]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [-1234] [] [2015-12-03 00:04:01,882]  INFO {org.wso2.carbon.rule.kernel.internal.ds.RuleEngineConfigDS} -  Successfully registered the Rule Config service {org.wso2.carbon.rule.kernel.internal.ds.RuleEngineConfigDS}
+TID: [-1234] [] [2015-12-03 00:04:01,951]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Starting ESB... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2015-12-03 00:04:01,976]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Initializing Apache Synapse... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2015-12-03 00:04:01,985]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/. {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:04:01,986]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/././repository/deployment/server/synapse-configs/default {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:04:01,986]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:04:01,993]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:04:02,007]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Thu Dec 03 00:04:02 CET 2015 {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,021]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} -  Loading the mediation configuration from the file system {org.wso2.carbon.mediation.initializer.CarbonSynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,025]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:04:02,032]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration {org.apache.synapse.config.xml.XMLConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:04:02,178]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.SynapseConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:04:02,181]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,190]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:04:02,191]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:04:02,204]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:04:02,206]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:04:02,206]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,209]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,210]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : logProv {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:04:02,223] ERROR {org.apache.synapse.core.axis2.ProxyService} -  Error reading from wsdl URI {org.apache.synapse.core.axis2.ProxyService}
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at org.apache.synapse.config.SynapseConfigUtils.getOMElementFromURL(SynapseConfigUtils.java:314)
+	at org.apache.synapse.core.axis2.ProxyService.buildAxisService(ProxyService.java:302)
+	at org.apache.synapse.Axis2SynapseController.deployProxyServices(Axis2SynapseController.java:701)
+	at org.apache.synapse.Axis2SynapseController.createSynapseEnvironment(Axis2SynapseController.java:390)
+	at org.apache.synapse.ServerManager.start(ServerManager.java:181)
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.initESB(ServiceBusInitializer.java:441)
+	at org.wso2.carbon.mediation.initializer.ServiceBusInitializer.activate(ServiceBusInitializer.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.inbound.endpoint.persistence.service.InboundEndpointPersistenceServiceDSComponent.activate(InboundEndpointPersistenceServiceDSComponent.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:451)
+	at org.wso2.carbon.core.init.CarbonServerManager.initializeCarbon(CarbonServerManager.java:517)
+	at org.wso2.carbon.core.init.CarbonServerManager.start(CarbonServerManager.java:219)
+	at org.wso2.carbon.core.internal.CarbonCoreServiceComponent.activate(CarbonCoreServiceComponent.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponent.activate(ServiceComponent.java:260)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.activate(ServiceComponentProp.java:146)
+	at org.eclipse.equinox.internal.ds.model.ServiceComponentProp.build(ServiceComponentProp.java:345)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponent(InstanceProcess.java:620)
+	at org.eclipse.equinox.internal.ds.InstanceProcess.buildComponents(InstanceProcess.java:197)
+	at org.eclipse.equinox.internal.ds.Resolver.getEligible(Resolver.java:343)
+	at org.eclipse.equinox.internal.ds.SCRManager.serviceChanged(SCRManager.java:222)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:107)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.dispatchEvent(BundleContextImpl.java:861)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:819)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:771)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:130)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:214)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.registerService(BundleContextImpl.java:433)
+	at org.eclipse.equinox.http.servlet.internal.Activator.registerHttpService(Activator.java:81)
+	at org.eclipse.equinox.http.servlet.internal.Activator.addProxyServlet(Activator.java:60)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.init(ProxyServlet.java:40)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.init(DelegationServlet.java:38)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1284)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1197)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1087)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5262)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5550)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+TID: [-1234] [] [2015-12-03 00:04:02,230]  WARN {org.apache.synapse.Axis2SynapseController} -  The proxy service logProv cannot be deployed - Continue in Proxy Service fail-safe mode. {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,231]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:04:02,244]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing... {org.apache.synapse.ServerManager}
+TID: [-1234] [] [2015-12-03 00:04:02,327]  INFO {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent} -  Statistic Reporter is Disabled {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent}
+TID: [-1234] [] [2015-12-03 00:04:02,328]  INFO {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent} -  Can't register an observer for mediationStatisticsStore. If you have disabled StatisticsReporter, please enable it in the Carbon.xml {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent}
+TID: [-1234] [] [2015-12-03 00:04:03,189]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:04:08,203]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTPS Listener started on 0.0.0.0:8243 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:04:08,204]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:04:13,211]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTP Listener started on 0.0.0.0:8280 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:04:13,224]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2015-12-03 00:04:13,342]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2015-12-03 00:04:13,440]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} -  Task service starting in STANDALONE mode... {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl}
+TID: [-1234] [] [2015-12-03 00:04:13,475]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} -  Initialized task manager. Tenant [-1234] {org.wso2.carbon.mediation.ntask.NTaskTaskManager}
+TID: [-1234] [] [2015-12-03 00:04:13,503]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [-1234] [] [2015-12-03 00:04:14,286]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [-1234] [] [2015-12-03 00:04:14,289]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Enterprise Service Bus-4.9.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2015-12-03 00:04:14,290]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 36 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2015-12-03 00:04:14,587]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.202.0.234:9443/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [-1234] [] [2015-12-03 00:04:26,398] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,403] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,420] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,421] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,421] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,422] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,439] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,449] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,450] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,453] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,454] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,457] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,461] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,471] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,463] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,461] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,482] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,480] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,483] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,490] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,500] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,502] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,507] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,503] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,514] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,515] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,515] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,515] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,517] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,518] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,529] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,530] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,536] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,539] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,548] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,549] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,554] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,557] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,560] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,561] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,560] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,572] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,575] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,576] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,578] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,578] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,582] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,582] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,584] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,586] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,597] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,602] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,606] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:03:57 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,609] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:12 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,608] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,610] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,607] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,610] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,616] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,619] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,626] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,627] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,645] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,646] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,648] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,653] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,660] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,663] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,665] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,667] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,670] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,675] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,676] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,678] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,680] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,686] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,673] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,688] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,685] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,692] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,696] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,697] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,697] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,697] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,699] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,699] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,702] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,702] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,702] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,703] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,704] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,704] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,714] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:03 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,714] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,716] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,717] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,718] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,718] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,718] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:04:02 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:26,720] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:04:49,951]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2015-12-03 00:04:49,950+0100] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [-1234] [] [2015-12-03 00:06:09,293]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:06:09,313]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service ProviderLogProxy to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:06:09,315]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: ProviderLogProxy {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:06:09,316]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:12:02,393]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/ProviderLogProxy.ProviderLogProxyHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:5f933931-f6f6-4759-a471-7908843f8b62, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:12:02,402]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} -  This engine will expire all callbacks after : 120 seconds, irrespective of the timeout action, after the specified or optional timeout {org.apache.synapse.core.axis2.TimeoutHandler}
+TID: [-1234] [] [2015-12-03 00:12:02,481] ERROR {org.apache.synapse.transport.passthru.util.RelayUtils} -  Error while building Passthrough stream {org.apache.synapse.transport.passthru.util.RelayUtils}
+org.apache.axiom.soap.SOAPProcessingException: Transport level information does not match with SOAP Message namespace URI
+	at org.apache.axis2.builder.BuilderUtil.validateSOAPVersion(BuilderUtil.java:745)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:68)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:138)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.builldMessage(RelayUtils.java:133)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:98)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:72)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:48)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:149)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:297)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:529)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:172)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:247)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+TID: [-1234] [] [2015-12-03 00:12:02,482] ERROR {org.apache.synapse.mediators.base.SequenceMediator} -  Error while building message {org.apache.synapse.mediators.base.SequenceMediator}
+org.apache.axis2.AxisFault: Error while building Passthrough stream
+	at org.apache.synapse.transport.passthru.util.RelayUtils.handleException(RelayUtils.java:283)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.builldMessage(RelayUtils.java:142)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.buildMessage(RelayUtils.java:98)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:72)
+	at org.apache.synapse.mediators.AbstractListMediator.mediate(AbstractListMediator.java:48)
+	at org.apache.synapse.mediators.base.SequenceMediator.mediate(SequenceMediator.java:149)
+	at org.apache.synapse.core.axis2.Axis2SynapseEnvironment.injectMessage(Axis2SynapseEnvironment.java:297)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.handleMessage(SynapseCallbackReceiver.java:529)
+	at org.apache.synapse.core.axis2.SynapseCallbackReceiver.receive(SynapseCallbackReceiver.java:172)
+	at org.apache.axis2.engine.AxisEngine.receive(AxisEngine.java:180)
+	at org.apache.synapse.transport.passthru.ClientWorker.run(ClientWorker.java:247)
+	at org.apache.axis2.transport.base.threads.NativeWorkerPool$1.run(NativeWorkerPool.java:172)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.axiom.soap.SOAPProcessingException: Transport level information does not match with SOAP Message namespace URI
+	at org.apache.axis2.builder.BuilderUtil.validateSOAPVersion(BuilderUtil.java:745)
+	at org.apache.axis2.builder.SOAPBuilder.processDocument(SOAPBuilder.java:68)
+	at org.apache.synapse.transport.passthru.util.DeferredMessageBuilder.getDocument(DeferredMessageBuilder.java:138)
+	at org.apache.synapse.transport.passthru.util.RelayUtils.builldMessage(RelayUtils.java:133)
+	... 13 more
+TID: [-1234] [] [2015-12-03 00:12:02,502]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:132fba59-30eb-4cb8-b332-46f38a8bf5cd, Direction: response, MESSAGE = Executing default 'fault' sequence, ERROR_CODE = 0, ERROR_MESSAGE = Error while building message, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope> {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:13:02,414]  INFO {org.apache.axis2.transport.http.HTTPSender} -  Unable to sendViaPost to url[http://pierre-Vostro-3700:8280/services/ProviderLogProxy.ProviderLogProxyHttpSoap12Endpoint] {org.apache.axis2.transport.http.HTTPSender}
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.MultiThreadedHttpConnectionManager$HttpConnectionAdapter.readLine(MultiThreadedHttpConnectionManager.java:1413)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.axis2.transport.http.AbstractHTTPSender.executeMethod(AbstractHTTPSender.java:630)
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:195)
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:77)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:451)
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:278)
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:442)
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:430)
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:225)
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:149)
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:554)
+	at org.apache.axis2.client.ServiceClient.sendReceive(ServiceClient.java:530)
+	at org.apache.jsp.admin.jsp.WSRequestXSSproxy_005fajaxprocessor_jsp._jspService(WSRequestXSSproxy_005fajaxprocessor_jsp.java:294)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.ui.JspServlet.service(JspServlet.java:155)
+	at org.wso2.carbon.ui.TilesJspServlet.service(TilesJspServlet.java:80)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.eclipse.equinox.http.helper.ContextPathServletAdaptor.service(ContextPathServletAdaptor.java:37)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.wso2.carbon.tomcat.ext.servlet.DelegationServlet.service(DelegationServlet.java:68)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.wso2.carbon.tomcat.ext.filter.CharacterSetFilter.doFilter(CharacterSetFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.continueInvocation(CompositeValve.java:99)
+	at org.wso2.carbon.tomcat.ext.valves.TomcatValveContainer.invokeValves(TomcatValveContainer.java:49)
+	at org.wso2.carbon.tomcat.ext.valves.CompositeValve.invoke(CompositeValve.java:62)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonStuckThreadDetectionValve.invoke(CarbonStuckThreadDetectionValve.java:159)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.wso2.carbon.tomcat.ext.valves.CarbonContextCreatorValve.invoke(CarbonContextCreatorValve.java:57)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:421)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1074)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:611)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1698)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:744)
+TID: [-1234] [] [2015-12-03 00:13:20,636]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/ProviderLogProxy.ProviderLogProxyHttpSoap11Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:fc03abf3-76d1-41df-8024-799cb8ddc474, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:13:20,659]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:9135288a-26d4-432f-b960-c147a33d2a1e, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:14:47,029]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Removing Axis2 Service: ProviderLogProxy {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:14:47,033]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:14:47,044]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service ProviderLogProxy to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:14:47,047]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: ProviderLogProxy {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:14:47,049]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1] [] [2015-12-03 00:15:02,569]  WARN {org.apache.synapse.transport.passthru.SourceHandler} -  Connection time out after request is read: http-incoming-33 {org.apache.synapse.transport.passthru.SourceHandler}
+TID: [-1234] [] [2015-12-03 00:16:47,262]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : FUCKYOUPROXY {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:16:47,291]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service FUCKYOUPROXY to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:16:47,293]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: FUCKYOUPROXY {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:16:47,294]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : FUCKYOUPROXY {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:19:40,880]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : proxjazrg {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:19:40,890]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service proxjazrg to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:19:40,892]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: proxjazrg {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:19:40,893]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : proxjazrg {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:20:23,125]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:037ce3fa-62c4-486d-a445-5e16d983d6d3, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:24,141]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:a2a337b1-afdd-40a4-a266-c6d16b329ff9, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:25,149]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:736371bc-e67a-40d6-acc4-98390fd24157, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:26,154]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:0665b30e-ca10-4e03-9ad0-7100fbc01d25, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:27,160]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:5b8386a7-3172-485d-b520-e94ad0d50d55, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:28,161]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:48beecea-4111-4428-9478-ba64554a0840, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:28,166]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:6572b0c8-f9e0-4805-9117-8bbbeb07bcb6, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:29,163]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:7893e8d6-7377-493f-b02e-0b9c9f7b4487, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:29,173]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:633d4bdc-18cc-4340-8795-d25b41ee5b75, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:30,169]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:f5620017-6698-4e5b-9c86-65e7bf4864fb, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:30,176]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:630eee6e-0726-4b55-be11-3ec1f38d574b, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:31,174]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:1882475b-7ee6-4b86-ba68-9ce53cd9b093, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:31,186]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:edf6a383-29ed-49bd-a423-87c0ae7d6bab, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:32,176]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:a83ebfd5-466e-4467-b941-169873399cba, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:32,196]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:f8aedf64-f714-4bc5-9c57-03edf2b0f5e5, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:33,190]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:a060eb08-e20d-498a-85b5-1f6ee118c388, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:33,205]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:6df590da-3d65-4ad2-bcab-21898a2874e9, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:34,183]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:765ef513-bb04-45bd-a0c7-e6b27f307e2c, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:34,211]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:ad3c098b-c816-4c15-a97b-ff80fe2e8097, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:35,193]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:601bd497-4fa2-42dd-8a76-26ec7321654c, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:35,212]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:cd87d97e-902d-412c-82d6-ddd6c2ab294e, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:36,197]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:562943fa-5cb4-4f90-ba3e-09166a3f1673, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:36,216]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:5aeba91b-c0e7-46bf-aa84-b242e57a83bb, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:37,212]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:cc27bbba-55bb-4f60-bde9-5196feaa1897, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:38,216]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:1950dc97-d4fe-4419-8971-f86fd8401013, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:39,224]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:8da0d56b-3a28-4774-b14e-a94230418985, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:40,221]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:499729e9-46ba-4a2d-a0b2-6f5d0fc65e97, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:20:41,234]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:a8b91fc7-40fd-4509-819e-8d70b2fdc27a, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:21:12,354]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:12,358]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,359]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:21:12,359]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8243 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:21:12,361]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTPS-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:21:12,362]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:21:12,362]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8280 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:21:12,364]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTP-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:21:12,364]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,365]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,371]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,371]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,374]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,375]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,391]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Writing logs  {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [-1234] [] [2015-12-03 00:21:12,392]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:21:12,392]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:12,393]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:12,481]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [-1234] [] [2015-12-03 00:21:12,568]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2015-12-03 00:21:12,570]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1] [] [2015-12-03 00:21:12,575]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:21:12,575]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:21:12,575]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:21:14,874]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [-1234] [] [2015-12-03 00:21:15,968]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:15,968]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:30,088]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,092]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.11.0-20-generic, amd64 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,092]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/lib/jvm/java-7-openjdk-amd64/jre {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,092]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_55 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,092]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : OpenJDK 64-Bit Server VM 24.51-b03,Oracle Corporation {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,093]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/pierre/swim15cf/ESB/wso2esb-4.9.0 {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,093]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/tmp {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,093]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : pierre, fr-FR, Europe/Paris {org.wso2.carbon.core.internal.CarbonCoreActivator}
+TID: [-1234] [] [2015-12-03 00:21:30,238]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter}
+TID: [-1] [] [2015-12-03 00:21:30,255]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! {org.wso2.carbon.databridge.agent.thrift.AgentHolder}
+TID: [-1] [] [2015-12-03 00:21:30,285]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS}
+TID: [-1234] [] [2015-12-03 00:21:32,692]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 76ms {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService}
+TID: [-1234] [] [2015-12-03 00:21:32,817]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent}
+TID: [-1234] [] [2015-12-03 00:21:35,755]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Default Embedded Solr Server Initialized {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:21:36,280]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent}
+TID: [-1] [] [2015-12-03 00:21:43,842]  INFO {org.apache.catalina.startup.TaglibUriRule} -  TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined {org.apache.catalina.startup.TaglibUriRule}
+TID: [-1234] [] [2015-12-03 00:21:44,691]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled {org.apache.axis2.deployment.ClusterBuilder}
+TID: [-1234] [] [2015-12-03 00:21:44,882]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2015-12-03 00:21:44,882]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer}
+TID: [-1234] [] [2015-12-03 00:21:44,895]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2015-12-03 00:21:44,912]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Identity Keystore from : repository/resources/security/wso2carbon.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2015-12-03 00:21:44,916]  INFO {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder} -  HTTPS Loading Trust Keystore from : repository/resources/security/client-truststore.jks {org.apache.synapse.transport.nhttp.config.ClientConnFactoryBuilder}
+TID: [-1234] [] [2015-12-03 00:21:44,937]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  Pass-through HTTPS Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1234] [] [2015-12-03 00:21:44,938]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Initializing Pass-through HTTP/S Sender... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:21:44,939]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  Pass-through HTTP Sender started... {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:21:44,961]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:21:44,994]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Initializing Pass-through HTTP/S Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:21:45,081]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v14 - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/client/modules/addressing-1.6.1-wso2v14.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [-1234] [] [2015-12-03 00:21:45,086]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v12 - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/client/modules/rampart-1.6.1-wso2v12.mar {org.apache.axis2.deployment.ModuleDeployer}
+TID: [-1234] [] [2015-12-03 00:21:46,038]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} -  We don't support method overloading. Ignoring [validateAudienceRestriction] {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator}
+TID: [-1234] [] [2015-12-03 00:21:46,601]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.processor-4.4.10 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:46,623]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.message.store-4.4.10 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:47,665]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: wso2carbon-sts {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:47,697]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.sts-4.5.6 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:47,923]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.4.7 -  {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:48,349]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/ {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:21:48,740]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} -  Using tenant lazy loading policy... {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig}
+TID: [-1234] [] [2015-12-03 00:21:48,763]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 {org.wso2.carbon.core.internal.permission.update.PermissionUpdater}
+TID: [-1234] [] [2015-12-03 00:21:48,849]  INFO {org.wso2.carbon.rule.kernel.internal.ds.RuleEngineConfigDS} -  Successfully registered the Rule Config service {org.wso2.carbon.rule.kernel.internal.ds.RuleEngineConfigDS}
+TID: [-1234] [] [2015-12-03 00:21:48,921]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Starting ESB... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2015-12-03 00:21:48,949]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} -  Initializing Apache Synapse... {org.wso2.carbon.mediation.initializer.ServiceBusInitializer}
+TID: [-1234] [] [2015-12-03 00:21:48,958]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using Synapse home : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/. {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:21:48,959]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using synapse.xml location : /home/pierre/swim15cf/ESB/wso2esb-4.9.0/././repository/deployment/server/synapse-configs/default {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:21:48,959]  INFO {org.apache.synapse.SynapseControllerFactory} -  Using server name : localhost {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:21:48,966]  INFO {org.apache.synapse.SynapseControllerFactory} -  The timeout handler will run every : 15s {org.apache.synapse.SynapseControllerFactory}
+TID: [-1234] [] [2015-12-03 00:21:48,980]  INFO {org.apache.synapse.Axis2SynapseController} -  Initializing Synapse at : Thu Dec 03 00:21:48 CET 2015 {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:48,995]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} -  Loading the mediation configuration from the file system {org.wso2.carbon.mediation.initializer.CarbonSynapseController}
+TID: [-1234] [] [2015-12-03 00:21:48,999]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} -  Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:21:49,007]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} -  Generating the Synapse configuration model by parsing the XML configuration {org.apache.synapse.config.xml.XMLConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:21:49,160]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} -  Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default {org.apache.synapse.config.SynapseConfigurationBuilder}
+TID: [-1234] [] [2015-12-03 00:21:49,166]  INFO {org.apache.synapse.Axis2SynapseController} -  Loading mediator extensions... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,179]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: echo {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,182]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Echo.aar - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/axis2services/Echo.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:49,201]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: Version {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,204]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: Version.aar - file:/home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/deployment/server/axis2services/Version.aar {org.apache.axis2.deployment.DeploymentEngine}
+TID: [-1234] [] [2015-12-03 00:21:49,205]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying the Synapse service... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,209]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying Proxy services... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,210]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : proxjazrg {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,252]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service proxjazrg to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,255]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: proxjazrg {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,257]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : proxjazrg {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,258]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : proxjazrg {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,258]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : FUCKYOUPROXY {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,271]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service FUCKYOUPROXY to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,274]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: FUCKYOUPROXY {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,276]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : FUCKYOUPROXY {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,277]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : FUCKYOUPROXY {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,277]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,292]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service ProviderLogProxy to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,295]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: ProviderLogProxy {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,297]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : ProviderLogProxy {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,298]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : ProviderLogProxy {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,298]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Building Axis service for Proxy service : logProv {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,311]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Adding service logProv to the Axis2 configuration {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,314]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: logProv {super-tenant} {org.wso2.carbon.core.deployment.DeploymentInterceptor}
+TID: [-1234] [] [2015-12-03 00:21:49,316]  INFO {org.apache.synapse.core.axis2.ProxyService} -  Successfully created the Axis2 service for Proxy service : logProv {org.apache.synapse.core.axis2.ProxyService}
+TID: [-1234] [] [2015-12-03 00:21:49,316]  INFO {org.apache.synapse.Axis2SynapseController} -  Deployed Proxy service : logProv {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,317]  INFO {org.apache.synapse.Axis2SynapseController} -  Deploying EventSources... {org.apache.synapse.Axis2SynapseController}
+TID: [-1234] [] [2015-12-03 00:21:49,335]  INFO {org.apache.synapse.ServerManager} -  Server ready for processing... {org.apache.synapse.ServerManager}
+TID: [-1234] [] [2015-12-03 00:21:49,446]  INFO {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent} -  Statistic Reporter is Disabled {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent}
+TID: [-1234] [] [2015-12-03 00:21:49,447]  INFO {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent} -  Can't register an observer for mediationStatisticsStore. If you have disabled StatisticsReporter, please enable it in the Carbon.xml {org.wso2.carbon.bam.mediationstats.data.publisher.internal.MediationStatisticsComponent}
+TID: [-1234] [] [2015-12-03 00:21:50,381]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Starting Pass-through HTTPS Listener... {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:21:55,398]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTPS Listener started on 0.0.0.0:8243 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:21:55,399]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Starting Pass-through HTTP Listener... {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:22:00,404]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Pass-through HTTP Listener started on 0.0.0.0:8280 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:22:00,421]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2015-12-03 00:22:00,541]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Using a shared selector for servlet write/read {org.apache.tomcat.util.net.NioSelectorPool}
+TID: [-1234] [] [2015-12-03 00:22:00,634]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} -  Task service starting in STANDALONE mode... {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl}
+TID: [-1234] [] [2015-12-03 00:22:00,668]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} -  Initialized task manager. Tenant [-1234] {org.wso2.carbon.mediation.ntask.NTaskTaskManager}
+TID: [-1234] [] [2015-12-03 00:22:00,694]  INFO {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent} -  Successfully Initialized Eventing on Registry {org.wso2.carbon.registry.eventing.internal.RegistryEventingServiceComponent}
+TID: [-1234] [] [2015-12-03 00:22:01,432]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi {org.wso2.carbon.core.init.JMXServerManager}
+TID: [-1234] [] [2015-12-03 00:22:01,435]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Enterprise Service Bus-4.9.0 {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2015-12-03 00:22:01,436]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 36 sec {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent}
+TID: [-1234] [] [2015-12-03 00:22:01,728]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.202.0.234:9443/carbon/ {org.wso2.carbon.ui.internal.CarbonUIServiceComponent}
+TID: [-1234] [] [2015-12-03 00:22:13,800] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,835] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,808] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,839] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,821] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,807] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,807] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,847] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,848] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,800] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,850] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,850] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,847] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,853] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,868] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,874] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,879] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,883] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,885] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,886] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,887] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,896] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,891] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,889] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,923] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,922] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,922] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,904] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,926] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,926] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,927] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,923] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,923] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,926] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,947] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,951] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,952] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,953] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,956] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,957] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,958] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,966] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,967] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,973] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,970] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,974] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,973] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,977] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,988] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,989] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,994] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,994] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,988] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:13,996] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,002] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,003] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,004] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,005] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,014] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,014] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,025] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,025] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,032] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,032] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,043] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,038] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,045] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,046] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,055] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,058] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,058] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,059] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,064] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:45 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,065] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:12 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,066] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,067] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,073] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,075] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,076] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,077] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,078] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,078] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,082] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,083] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,082] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,089] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,089] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,091] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,101] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,101] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,104] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,105] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,105] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,106] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,107] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:49 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,109] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,109] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,109] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,108] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Thu Dec 03 00:21:50 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:14,111] ERROR {org.wso2.carbon.registry.indexing.solr.SolrClient} -  Error when passing date to create solr date format.java.text.ParseException: Unparseable date: "Wed Dec 02 21:57:24 CET 2015" {org.wso2.carbon.registry.indexing.solr.SolrClient}
+TID: [-1234] [] [2015-12-03 00:22:36,326]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2015-12-03 00:22:36,325+0100] {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil}
+TID: [-1234] [] [2015-12-03 00:22:54,519]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:c0d5c169-c888-4cbe-bb24-04877be9f5f5, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:54,528]  INFO {org.apache.synapse.core.axis2.TimeoutHandler} -  This engine will expire all callbacks after : 120 seconds, irrespective of the timeout action, after the specified or optional timeout {org.apache.synapse.core.axis2.TimeoutHandler}
+TID: [-1234] [] [2015-12-03 00:22:55,461]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:7045f08d-0016-41b7-b673-c76cd0203139, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:56,466]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:a8a8a1f3-b405-4b2e-bef5-16a8ee948fb3, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:57,471]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:03ff97a0-44b5-40f6-8042-2d40d5dcab7a, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:58,476]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:0b8d2ae6-1dc9-43eb-bba9-1f5b5921fb55, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:59,481]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:1a51a40e-7078-426b-ad1a-7f16636b4158, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:22:59,584]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:1b20d091-c425-42c3-bb82-239ee0e9dd80, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:00,479]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:4e19ea08-23b8-4513-9fb9-ece8abfca8f0, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:00,490]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:3ce866f4-f415-4960-bcf5-037346348d4f, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:01,479]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:326c93e7-893b-4d2d-85b6-266dfe34e81b, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:01,498]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:a7058c45-2fc7-4bc7-acf7-e2c304e4193a, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:02,484]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:d2d00d75-cc53-4d27-acc5-2e4a4548c2dc, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:02,511]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:af761f33-9fc8-472f-94bb-cfff2f8b2f14, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:03,490]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:3e00e6c8-4a06-4692-84f2-717429c2ef5d, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:03,526]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:cbcbe7ba-98e2-4659-98ab-72ff80d25be5, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:04,491]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:a94a45fa-20b3-43cb-9f07-aeb27ce69b0f, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:04,533]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:c5191f23-c66e-4376-854e-0c81d6d5fa0b, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:05,501]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:7cb4e267-dac3-43cf-b7af-d255b57c1f69, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:05,535]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:9a73558c-506a-4030-b58b-5f697435552f, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:06,510]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:3140a8cd-5466-42e6-becf-90c2d1b78d15, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:06,542]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:ab117494-a43a-4557-9e90-99450671cd9a, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:07,524]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:923d5e9a-4206-4564-9f95-e6f47a6bd88e, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:07,547]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: /services/proxjazrg.proxjazrgHttpSoap12Endpoint, WSAction: provide, SOAPAction: provide, MessageID: urn:uuid:701c0be5-b5f5-465c-aedd-22e05cc9bdaf, Direction: request {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:08,536]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:24e7b0b5-08d0-40f5-88dd-4cd743b13ed6, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:09,543]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:1f51751f-6e39-464c-824d-8fad791ffaa2, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:10,547]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:47da3f74-1c74-482a-ba50-f59098066af4, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:11,556]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:36c69975-d5b7-440d-b480-d119a93637bb, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:12,556]  INFO {org.apache.synapse.mediators.builtin.LogMediator} -  To: http://www.w3.org/2005/08/addressing/anonymous, WSAction: , SOAPAction: , MessageID: urn:uuid:abd93463-c8ed-4c8b-8fb9-bd76b56abe06, Direction: response {org.apache.synapse.mediators.builtin.LogMediator}
+TID: [-1234] [] [2015-12-03 00:23:53,479]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:23:53,483]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,483]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Stopping Pass-through HTTPS Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:23:53,484]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8243 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:23:53,486]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTPS-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:23:53,486]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Stopping Pass-through HTTP Listener.. {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:23:53,487]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  Shutting down IO Reactor bind for port 8280 {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1] [] [2015-12-03 00:23:53,488]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} -  HTTP-Listener I/O dispatcher Listener shutdown. {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager}
+TID: [-1234] [] [2015-12-03 00:23:53,488]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,488]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,495]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,495]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,498]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,499]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,522]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. {org.wso2.carbon.core.ServerManagement}
+TID: [-1234] [] [2015-12-03 00:23:53,522]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Enterprise Service Bus... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:23:53,522]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:23:53,620]  INFO {org.apache.synapse.task.SynapseTaskManager} -  Shutting down the task manager {org.apache.synapse.task.SynapseTaskManager}
+TID: [-1234] [] [2015-12-03 00:23:53,721]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1] [] [2015-12-03 00:23:53,723]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} -  HTTPS Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender}
+TID: [-1] [] [2015-12-03 00:23:53,726]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} -  HTTP Sender shutdown {org.apache.synapse.transport.passthru.PassThroughHttpSender}
+TID: [-1234] [] [2015-12-03 00:23:53,727]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener}
+TID: [-1234] [] [2015-12-03 00:23:53,729]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} -  Destroying PassThroughHttpListener {org.apache.synapse.transport.passthru.PassThroughHttpListener}
+TID: [-1234] [] [2015-12-03 00:23:55,997]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent}
+TID: [-1234] [] [2015-12-03 00:23:57,191]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete {org.wso2.carbon.core.init.CarbonServerManager}
+TID: [-1234] [] [2015-12-03 00:23:57,191]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM {org.wso2.carbon.core.init.CarbonServerManager}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.application.mgt.synapse" label="WSO2 Carbon - Synapse Application Management Feature" provider-name="%providerName" version="4.4.10">
+  <description>This feature contains the bundles required for Synapse Application Management functionality.
+        Synapse Application management component can be used to manage synapse artifacts deployed
+        through cApps.</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <require>
+    <import feature="org.wso2.carbon.application.mgt" match="equivalent" version="4.4.7"/>
+    <import feature="org.wso2.carbon.core" match="equivalent" version="4.4.1"/>
+  </require>
+  <includes id="org.wso2.carbon.application.mgt.synapse.server" optional="false" version="4.4.10"/>
+  <includes id="org.wso2.carbon.application.mgt.synapse.ui" optional="false" version="4.4.10"/>
+</feature>

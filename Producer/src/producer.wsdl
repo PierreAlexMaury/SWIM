@@ -1,0 +1,53 @@
+<definitions name="ProvideService"
+   targetNamespace="http://localhost:8002/provideService"
+   xmlns="http://schemas.xmlsoap.org/wsdl/"
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+   xmlns:tns="http://localhost:8002/provideService"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+   <message name="ProvideRequest">
+    <part name="size" type="xsd:int"/>
+    <part name="processing_time" type="xsd:int"/>
+    <part name="packet_id" type="xsd:int"/>
+    <part name="message" type="xsd:string"/>
+    <part name="emission_time" type="xsd:int"/>
+   </message>
+   <message name="ProvideResponse">
+    <part name="message" type="xsd:string"/>
+   </message>
+
+   <portType name="Provide_PortType">
+    <operation name="provide">
+       <input message="tns:ProvideRequest"/>
+       <output message="tns:ProvideResponse"/>
+    </operation>
+   </portType>
+
+   <binding name="Provide_Binding" type="tns:Provide_PortType">
+   <soap:binding style="rpc"
+    transport="http://schemas.xmlsoap.org/soap/http"/>
+   <operation name="provide">
+    <soap:operation soapAction="provide"/>
+    <input>
+       <soap:body
+        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+        namespace="urn:examples:provideservice"
+        use="encoded"/>
+    </input>
+    <output>
+       <soap:body
+        encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+        namespace="urn:examples:provideservice"
+        use="encoded"/>
+    </output>
+   </operation>
+   </binding>
+
+   <service name="Provide_Service">
+    <documentation>WSDL File for ProvideService</documentation>
+    <port binding="tns:Provide_Binding" name="Provide_Port">
+       <soap:address
+        location="http://localhost:8002/provideService" />
+    </port>
+   </service>
+</definitions>

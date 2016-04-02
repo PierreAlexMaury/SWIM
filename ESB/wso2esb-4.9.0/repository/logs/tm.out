@@ -1,0 +1,746 @@
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog-1.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog0.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog0.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog0.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-38 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog1.log
+INFO Thread-38 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog1.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog1.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog2.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog2.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog2.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-38 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog3.log
+INFO Thread-38 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog3.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog3.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-32 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog4.log
+INFO Thread-32 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog4.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog4.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-37 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Thread-37 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-35 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Thread-35 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog4.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog4.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-33 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Thread-33 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-35 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Thread-35 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-35 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Thread-35 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog9.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog9.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog9.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog5.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-37 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Thread-37 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog6.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-38 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Thread-38 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog7.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog8.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog9.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog9.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog10.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog10.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog10.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog11.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog11.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog11.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog12.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog12.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog13.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog13.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog13.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog14.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog14.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog14.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog15.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog15.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog15.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog16.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
+INFO Start Level Event Dispatcher com.atomikos.logging.LoggerFactory - Using Slf4J for logging.
+WARN Start Level Event Dispatcher com.atomikos.icatch.config.UserTransactionServiceImp - Using init file: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/lib/transactions.properties
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Starting read of logfile /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog16.log
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Done read of logfile
+INFO Start Level Event Dispatcher com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog16.log
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING core version: 3.8.0
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_name = tm.out
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_count = 1
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.automatic_resource_registration = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.client_demarcation = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.threaded_2pc = false
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.serial_jta_transactions = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_dir = repository/data
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_log_level = INFO
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_actives = 50
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.checkpoint_interval = 500
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.enable_logging = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.output_dir = repository/logs
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.log_base_name = tmlog
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.console_file_limit = 1073741824
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.max_timeout = 8000000
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.tm_unique_name = 127.0.1.1.tm
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING java.naming.provider.url = rmi://localhost:1099
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+INFO Start Level Event Dispatcher com.atomikos.icatch.config.imp.AbstractUserTransactionService - USING com.atomikos.icatch.default_jta_timeout = 5000000
+INFO Thread-3 com.atomikos.persistence.imp.FileLogStream - Logfile closed: /home/pierre/Desktop/swim15cf/ESB/wso2esb-4.9.0/repository/data/tmlog17.log
+INFO Thread-3 com.atomikos.icatch.imp.thread.TaskManager - THREADS: using JDK thread pooling...
